@@ -1,0 +1,24 @@
+nmap -> scan de rede, portas, serviços, hosts ...
+
+
+sudo nmap -sn 192.168.88.0/24 | grep $192.168
+nmap -O
+nmap -A
+nmap -sS [target]
+
+
+----------------
+
+wireshark follow tcp stream and proxy stuff
+
+
+testasp.vulnweb.com
+
+---------------
+
+burp suit -> ferramenta para sacar trafego web.
+
+intercepta a conexão http
+
+
+
