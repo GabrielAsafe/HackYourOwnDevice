@@ -1,0 +1,240 @@
+
+
+````md
+# Network & APK Analysis Notes
+
+---
+
+## tcpdump / Wireshark
+
+- Packet capture started showing activity from:
+  - Line 1133
+
+---
+
+## Port Scanning (Nmap)
+
+Target: `192.168.1.117`
+
+### Full Port Scan
+```bash
+nmap -p- 192.168.1.117
+````
+
+### Service & Version Detection
+
+```bash
+nmap -sV 192.168.1.117
+```
+
+### OS Detection (Best Effort)
+
+```bash
+nmap -O 192.168.1.117
+```
+
+### Comprehensive Scan
+
+```bash
+nmap -A 192.168.1.117
+```
+
+### Faster, Still Detailed Scan
+
+```bash
+nmap -T4 -A 192.168.1.117
+```
+
+---
+
+## APK Reverse Engineering Insights
+
+From the `tree` output, this appears to be a decompiled Android APK structure. Below are key areas of interest for security analysis, CTFs, or app auditing.
+
+---
+
+### Key Components to Inspect
+
+#### `assets/`
+
+* Contains files like:
+
+  * `down.json`
+  * `love.json`
+* May include:
+
+  * API endpoints
+  * Feature flags
+  * Hidden configurations
+* Recommended: Inspect these first
+
+---
+
+#### `AndroidManifest.xml`
+
+* Critical file for app behavior:
+
+  * Permissions (e.g., `INTERNET`, `ACCESS_FINE_LOCATION`)
+  * Exported activities/services
+* Misconfigurations here are common entry points
+
+---
+
+#### `classes*.dex`
+
+* Core application logic
+* Analyze using tools like:
+
+  * `jadx`
+  * `apktool`
+* Look for:
+
+  * Hardcoded URLs
+  * API keys
+  * Authentication logic
+
+---
+
+#### `lib/`
+
+* Native `.so` libraries
+* Often used to obscure sensitive functionality
+* More difficult to reverse, but potentially valuable
+
+---
+
+#### `META-INF/`
+
+* Contains:
+
+  * Signing information
+  * Dependency metadata
+* Not typically exploitable, but useful for context
+
+---
+
+#### Firebase / Analytics `.properties`
+
+* May reveal:
+
+  * Backend services
+  * Project IDs
+  * Telemetry endpoints
+
+```
+```
+
+
+
+#wireshark collors
+
+No Wireshark, as **cores não são aleatórias** — elas vêm de um sistema chamado **Coloring Rules (Regras de Coloração)**, que ajuda a identificar rapidamente tipos de tráfego.
+
+---
+
+##  Como funcionam as cores no Wireshark
+
+Cada pacote é avaliado por regras (expressões de filtro).
+Se um pacote corresponder a uma regra, ele recebe uma cor específica.
+
+Exemplo:
+“TCP com problemas” pode ficar vermelho, enquanto “HTTP normal” pode ficar verde.
+
+---
+
+## Regras padrão mais comuns
+
+Estas são as cores mais típicas que já vêm no Wireshark:
+
+### Vermelho / Rosa forte
+
+* Erros ou problemas graves
+* Exemplo:
+
+  * TCP retransmissions
+  * Reset de conexão (RST)
+  * Checksum errors
+
+---
+
+### Laranja
+
+* Tráfego TCP “normal mas importante”
+* Handshakes ou pacotes de controlo
+
+---
+
+### Amarelo
+
+* Avisos ou tráfego potencialmente suspeito
+* DNS ou protocolos de controlo
+
+---
+
+### Verde
+
+* Tráfego “OK” / comum
+* HTTP, tráfego TCP normal
+
+---
+
+### Azul / Azul claro
+
+* Tráfego UDP ou serviços de descoberta
+* Ex: DNS, DHCP
+
+---
+
+### Roxo
+
+* Tráfego TLS/SSL (HTTPS encriptado)
+* Normalmente “seguro mas não visível”
+
+---
+
+### Preto / Cinzento escuro
+
+* Pacotes com problemas graves ou inválidos
+* Malformações ou erros de captura
+
+---
+
+##  Onde ver e mudar essas regras
+
+Vai a:
+
+```
+View → Coloring Rules
+```
+
+Lá podes:
+
+* Ver todas as regras
+* Editar expressões
+* Mudar cores
+* Ativar/desativar regras
+
+---
+
+Se quiseres analisar bem um ficheiro `.pcap`:
+
+* Não confies só nas cores
+* Combina com filtros como:
+
+```id="1c7g4p"
+tcp, dns, tls, ip.addr == x.x.x.x
+```
+
+---
+
+
+
+
+
+# wireshark flags
+
+## getting communication between server and socket
+    tcp.flags.syn == 1 || tcp.flags.ack == 1
+
+
+

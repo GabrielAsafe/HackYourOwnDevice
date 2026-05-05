@@ -1,0 +1,138 @@
+alvo 247
+
+
+
+nmap --script broadcast 192.168.1.0/24
+
+result--------
+bash-5.3$ nmap --script broadcast 192.168.1.0/24
+Starting Nmap 7.92 ( https://nmap.org ) at 2026-04-24 16:42 WEST
+Pre-scan script results:
+| broadcast-avahi-dos:
+|   Discovered hosts:
+|     224.0.0.251
+|   After NULL UDP avahi packet DoS (CVE-2011-1002).
+|_  Hosts are all up (not vulnerable).
+| broadcast-upnp-info:
+|   239.255.255.250
+|       Server: Unspecified, UPnP/1.0, Unspecified
+|_      Location: http://192.168.1.254:49152/wps_device.xml
+| broadcast-dns-service-discovery:
+|   224.0.0.251
+|     8009/tcp googlecast
+|       id=1de589fcdfe7ccec1a4fb9c537878c6a
+|       cd=F5C6AD17F42D91299E4F084CE32AF2B6
+|       rm=4E06620AFB3C64E9
+|       Address=192.168.1.146
+|     8009/tcp googlecast
+|       id=6a1ff7d636cc80fea53b5177abd08139
+|       cd=25B44539194C62972FDC77B2BC22C93D
+|       rm=4196BE5078F72A7D
+|       Address=192.168.1.74
+|     8123/tcp home-assistant
+|       Address=192.168.1.222 2001:8a0:f231:500:cc6c:4295:d55d:da7b
+|     10001/tcp googlezone
+|       Address=192.168.1.74
+|     10001/tcp googlezone
+|       Address=192.168.1.146
+|     10101/tcp googcrossdevice
+|       Address=192.168.1.74
+|     10101/tcp googcrossdevice
+|_      Address=192.168.1.146
+Nmap scan report for Google-Nest-Mini (192.168.1.74)
+Host is up (0.012s latency).
+Not shown: 995 closed tcp ports (conn-refused)
+PORT      STATE SERVICE
+8008/tcp  open  http
+8009/tcp  open  ajp13
+8443/tcp  open  https-alt
+9000/tcp  open  cslistener
+10001/tcp open  scp-config
+
+Nmap scan report for yeelink-light-color1_miio56325832 (192.168.1.83)
+Host is up (0.0076s latency).
+All 1000 scanned ports on yeelink-light-color1_miio56325832 (192.168.1.83) are in ignored states.
+Not shown: 1000 closed tcp ports (conn-refused)
+
+Nmap scan report for P100 (192.168.1.117)
+Host is up (0.0089s latency).
+Not shown: 999 closed tcp ports (conn-refused)
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap scan report for Google-Nest-Mini (192.168.1.146)
+Host is up (0.019s latency).
+Not shown: 995 closed tcp ports (conn-refused)
+PORT      STATE SERVICE
+8008/tcp  open  http
+8009/tcp  open  ajp13
+8443/tcp  open  https-alt
+9000/tcp  open  cslistener
+10001/tcp open  scp-config
+
+Nmap scan report for fedora (192.168.1.200)
+Host is up (0.00088s latency).
+Not shown: 999 closed tcp ports (conn-refused)
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for homeassistant (192.168.1.222)
+Host is up (0.0100s latency).
+Not shown: 999 closed tcp ports (conn-refused)
+PORT    STATE SERVICE
+111/tcp open  rpcbind
+
+Nmap scan report for 192.168.1.228
+Host is up (0.0088s latency).
+Not shown: 996 closed tcp ports (conn-refused)
+PORT   STATE SERVICE
+23/tcp open  telnet
+53/tcp open  domain
+80/tcp open  http
+81/tcp open  hosts2-ns
+
+Nmap scan report for wlan0 (192.168.1.247)
+Host is up (0.018s latency).
+Not shown: 999 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+6668/tcp open  irc
+
+Nmap scan report for GEN8 (192.168.1.254)
+Host is up (0.0044s latency).
+Not shown: 988 closed tcp ports (conn-refused)
+PORT      STATE    SERVICE
+22/tcp    open     ssh
+23/tcp    open     telnet
+53/tcp    open     domain
+80/tcp    open     http
+111/tcp   filtered rpcbind
+139/tcp   open     netbios-ssn
+443/tcp   open     https
+445/tcp   open     microsoft-ds
+8080/tcp  filtered http-proxy
+9876/tcp  filtered sd
+49152/tcp open     unknown
+49153/tcp open     unknown
+
+Nmap done: 256 IP addresses (9 hosts up) scanned in 49.58 seconds
+bash-5.3$
+
+-------------
+
+
+
+
+#web interfaces
+nmap -p 80,443,8080 --script http-* <target>
+
+#default credentials
+--script "ftp-anon,ssh-auth-methods,telnet-encryption,smb-security-mode"
+
+#iot Protocols
+nmap -p 1883,5683 --script "mqtt-subscribe,coap-resources" <target>
+
+#vulnerabilities
+--script vuln
+
+#ssl tls
+--script "ssl-cert,ssl-enum-ciphers,ssl-dh-params"

@@ -1,0 +1,17 @@
+https://github.com/tuya-cloudcutter/tuya-cloudcutter
+
+
+Clarified here that Nedis WIFIP121FWT is compatible with QNCX 16A Smart Plug profile - 1.1.8 / oem-bk7231n-plug-1.1.8-sdk-2.3.1-40.00
+
+We don't add a new device to the list unless we verify the entire profile. This information is valid for 3rd party firmware flashing only. Closing as it is documented, there is no issue to address.
+
+
+
+Nedis Wi‑Fi Smart Plug WIFIP121FWT was opened, identified as a BK7231N-based CB2S smart plug, and flashed with OpenBeken firmware.
+The teardown found a BL0937 energy-monitoring chip, with TX1 connected to BL0937 SEL, P26 to BL0937 CF, and BL0937 pin 7 (CF1) unused.
+Flashing used a FTDI USB-to-TTL adapter on 3.3V, GND, TX, RX and CEN, then uartprogram wrote OpenBK7231N_QIO_1.14.1.bin to 0x0.
+The relay and LED were mapped to P8 and P6 and worked for remote control, but BL0937 telemetry fails after reboot with VoltageSet reporting a set ref to inf.
+
+
+
+https://upk.libretiny.eu/

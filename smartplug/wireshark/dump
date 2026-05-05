@@ -1,0 +1,446 @@
+, win 64, options [nop,nop,TS val 3388321128 ecr 1910206271], length 37 45717 Refused* 0/0/0 (35)
+12:24:16.987555 IP 10.42.0.1.53 > 10.42.0.112.51012: Flags [F.], seq 38, ack 39, win 64, options [nop,nop,TS val 48406708 ecr 1910206272], length 0
+12:24:16.987613 IP 10.42.0.112.51008 > 10.42.0.1.53: Flags [.], ack 39, win 256, options [nop,nop,TS val 1910206273 ecr 498451698], length 0
+12:24:16.988044 IP 10.42.0.112.51022 > 10.42.0.1.53: Flags [.], ack 1, win 256, options [nop,nop,TS val 1910206273 ecr 4082137070], length 0
+12:24:16.988448 IP 10.42.0.112.51022 > 10.42.0.1.53: Flags [P.], seq 1:38, ack 1, win 256, options [nop,nop,TS val 1910206273 ecr 4082137070], length 37 57873+ A? a1-us.iotbing.com. (35)
+12:24:16.988472 IP 10.42.0.1.53 > 10.42.0.112.51022: Flags [.], ack 38, win 64, options [nop,nop,TS val 4082137071 ecr 1910206273], length 0
+12:24:16.988572 IP 10.42.0.112.51014 > 10.42.0.1.53: Flags [.], ack 38, win 256, options [nop,nop,TS val 1910206274 ecr 3388321128], length 0
+12:24:16.989072 IP 10.42.0.112.51012 > 10.42.0.1.53: Flags [.], ack 39, win 256, options [nop,nop,TS val 1910206274 ecr 48406708], length 0
+12:24:16.989339 IP 10.42.0.112.51014 > 10.42.0.1.53: Flags [F.], seq 38, ack 38, win 256, options [nop,nop,TS val 1910206274 ecr 3388321128], length 0
+12:24:16.989390 IP 10.42.0.1.53 > 10.42.0.112.51014: Flags [F.], seq 38, ack 39, win 64, options [nop,nop,TS val 3388321130 ecr 1910206274], length 0
+12:24:16.989641 IP 10.42.0.1.53 > 10.42.0.112.51022: Flags [P.], seq 1:38, ack 38, win 64, options [nop,nop,TS val 4082137072 ecr 1910206273], length 37 57873 Refused* 0/0/0 (35)
+12:24:16.990157 IP 10.42.0.112.51014 > 10.42.0.1.53: Flags [.], ack 39, win 256, options [nop,nop,TS val 1910206275 ecr 3388321130], length 0
+12:24:16.990411 IP 10.42.0.112.51022 > 10.42.0.1.53: Flags [.], ack 38, win 256, options [nop,nop,TS val 1910206275 ecr 4082137072], length 0
+12:24:16.993081 IP 10.42.0.112.51022 > 10.42.0.1.53: Flags [F.], seq 38, ack 38, win 256, options [nop,nop,TS val 1910206278 ecr 4082137072], length 0
+12:24:16.993235 IP 10.42.0.1.53 > 10.42.0.112.51022: Flags [F.], seq 38, ack 39, win 64, options [nop,nop,TS val 4082137076 ecr 1910206278], length 0
+12:24:16.993720 IP 10.42.0.112.49709 > 10.42.0.1.53: 45717+ A? a1-us.iotbing.com. (35)
+12:24:16.995019 IP 10.42.0.112.51022 > 10.42.0.1.53: Flags [.], ack 39, win 256, options [nop,nop,TS val 1910206280 ecr 4082137076], length 0
+12:24:16.997016 IP 10.42.0.112.55984 > 10.42.0.1.53: 57873+ A? a1-us.iotbing.com. (35)
+12:24:16.997564 IP 10.42.0.112.35174 > 10.42.0.1.53: 65497+ A? a1-us.iotbing.com. (35)
+12:24:16.998054 IP 10.42.0.112.42970 > 10.42.0.1.53: 30422+ A? a1-us.iotbing.com. (35)
+12:24:16.998610 IP 10.42.0.112.54683 > 10.42.0.1.53: 18702+ A? a1-us.iotbing.com. (35)
+12:24:17.005891 IP 10.42.0.112.51024 > 10.42.0.1.53: Flags [S], seq 3509126201, win 65535, options [mss 1460,sackOK,TS val 1910206290 ecr 0,nop,wscale 8], length 0
+12:24:17.006079 IP 10.42.0.1.53 > 10.42.0.112.51024: Flags [S.], seq 3238112013, ack 3509126202, win 65160, options [mss 1460,sackOK,TS val 3224745567 ecr 1910206290,nop,wscale 10], length 0
+12:24:17.007025 IP 10.42.0.112.51024 > 10.42.0.1.53: Flags [.], ack 1, win 256, options [nop,nop,TS val 1910206292 ecr 3224745567], length 0
+12:24:17.007623 IP 10.42.0.112.51024 > 10.42.0.1.53: Flags [P.], seq 1:38, ack 1, win 256, options [nop,nop,TS val 1910206293 ecr 3224745567], length 37 64520+ A? a1-us.iotbing.com. (35)
+12:24:17.007705 IP 10.42.0.1.53 > 10.42.0.112.51024: Flags [.], ack 38, win 64, options [nop,nop,TS val 3224745568 ecr 1910206293], length 0
+12:24:17.008789 IP 10.42.0.112.51036 > 10.42.0.1.53: Flags [S], seq 3861968004, win 65535, options [mss 1460,sackOK,TS val 1910206294 ecr 0,nop,wscale 8], length 0
+12:24:17.008910 IP 10.42.0.1.53 > 10.42.0.112.51036: Flags [S.], seq 164655555, ack 3861968005, win 65160, options [mss 1460,sackOK,TS val 2790485225 ecr 1910206294,nop,wscale 10], length 0
+12:24:17.009255 IP 10.42.0.1.53 > 10.42.0.112.51024: Flags [P.], seq 1:38, ack 38, win 64, options [nop,nop,TS val 3224745570 ecr 1910206293], length 37 64520 Refused* 0/0/0 (35)
+12:24:17.009675 IP 10.42.0.112.51040 > 10.42.0.1.53: Flags [S], seq 1962428461, win 65535, options [mss 1460,sackOK,TS val 1910206295 ecr 0,nop,wscale 8], length 0
+12:24:17.009775 IP 10.42.0.1.53 > 10.42.0.112.51040: Flags [S.], seq 734068507, ack 1962428462, win 65160, options [mss 1460,sackOK,TS val 1172656934 ecr 1910206295,nop,wscale 10], length 0
+12:24:17.010508 IP 10.42.0.112.51052 > 10.42.0.1.53: Flags [S], seq 1571768598, win 65535, options [mss 1460,sackOK,TS val 1910206296 ecr 0,nop,wscale 8], length 0
+12:24:17.010621 IP 10.42.0.1.53 > 10.42.0.112.51052: Flags [S.], seq 3276955950, ack 1571768599, win 65160, options [mss 1460,sackOK,TS val 2860475934 ecr 1910206296,nop,wscale 10], length 0
+12:24:17.010675 IP 10.42.0.112.51036 > 10.42.0.1.53: Flags [.], ack 1, win 256, options [nop,nop,TS val 1910206296 ecr 2790485225], length 0
+12:24:17.010798 IP 10.42.0.112.51024 > 10.42.0.1.53: Flags [.], ack 38, win 256, options [nop,nop,TS val 1910206296 ecr 3224745570], length 0
+12:24:17.010921 IP 10.42.0.112.51036 > 10.42.0.1.53: Flags [P.], seq 1:38, ack 1, win 256, options [nop,nop,TS val 1910206296 ecr 2790485225], length 37 14447+ A? a1-us.iotbing.com. (35)
+12:24:17.010951 IP 10.42.0.1.53 > 10.42.0.112.51036: Flags [.], ack 38, win 64, options [nop,nop,TS val 2790485228 ecr 1910206296], length 0
+12:24:17.012363 IP 10.42.0.112.51040 > 10.42.0.1.53: Flags [.], ack 1, win 256, options [nop,nop,TS val 1910206296 ecr 1172656934], length 0
+12:24:17.012490 IP 10.42.0.112.51040 > 10.42.0.1.53: Flags [P.], seq 1:38, ack 1, win 256, options [nop,nop,TS val 1910206296 ecr 1172656934], length 37 36259+ A? a1-us.iotbing.com. (35)
+12:24:17.012500 IP 10.42.0.1.53 > 10.42.0.112.51036: Flags [P.], seq 1:38, ack 38, win 64, options [nop,nop,TS val 2790485229 ecr 1910206296], length 37 14447 Refused* 0/0/0 (35)
+12:24:17.012517 IP 10.42.0.1.53 > 10.42.0.112.51040: Flags [.], ack 38, win 64, options [nop,nop,TS val 1172656937 ecr 1910206296], length 0
+12:24:17.012541 IP 10.42.0.112.51024 > 10.42.0.1.53: Flags [F.], seq 38, ack 38, win 256, options [nop,nop,TS val 1910206297 ecr 3224745570], length 0
+12:24:17.012621 IP 10.42.0.1.53 > 10.42.0.112.51024: Flags [F.], seq 38, ack 39, win 64, options [nop,nop,TS val 3224745573 ecr 1910206297], length 0
+12:24:17.012682 IP 10.42.0.112.51052 > 10.42.0.1.53: Flags [.], ack 1, win 256, options [nop,nop,TS val 1910206297 ecr 2860475934], length 0
+12:24:17.012803 IP 10.42.0.112.51052 > 10.42.0.1.53: Flags [P.], seq 1:38, ack 1, win 256, options [nop,nop,TS val 1910206297 ecr 2860475934], length 37 17184+ A? a1-us.iotbing.com. (35)
+12:24:17.012826 IP 10.42.0.1.53 > 10.42.0.112.51052: Flags [.], ack 38, win 64, options [nop,nop,TS val 2860475936 ecr 1910206297], length 0
+12:24:17.013864 IP 10.42.0.1.53 > 10.42.0.112.51040: Flags [P.], seq 1:38, ack 38, win 64, options [nop,nop,TS val 1172656938 ecr 1910206296], length 37 36259 Refused* 0/0/0 (35)
+12:24:17.014501 IP 10.42.0.112.51068 > 10.42.0.1.53: Flags [S], seq 770443451, win 65535, options [mss 1460,sackOK,TS val 1910206298 ecr 0,nop,wscale 8], length 0
+12:24:17.014569 IP 10.42.0.1.53 > 10.42.0.112.51068: Flags [S.], seq 2148264667, ack 770443452, win 65160, options [mss 1460,sackOK,TS val 1197969457 ecr 1910206298,nop,wscale 10], length 0
+12:24:17.014616 IP 10.42.0.112.58824 > 10.42.0.1.53: 64520+ A? a1-us.iotbing.com. (35)
+12:24:17.014678 IP 10.42.0.112.51036 > 10.42.0.1.53: Flags [.], ack 38, win 256, options [nop,nop,TS val 1910206299 ecr 2790485229], length 0
+12:24:17.015711 IP 10.42.0.1.53 > 10.42.0.112.51052: Flags [P.], seq 1:38, ack 38, win 64, options [nop,nop,TS val 2860475939 ecr 1910206297], length 37 17184 Refused* 0/0/0 (35)
+12:24:17.022926 IP 10.42.0.112.51036 > 10.42.0.1.53: Flags [F.], seq 38, ack 38, win 256, options [nop,nop,TS val 1910206299 ecr 2790485229], length 0
+12:24:17.023046 IP 10.42.0.112.51024 > 10.42.0.1.53: Flags [.], ack 39, win 256, options [nop,nop,TS val 1910206300 ecr 3224745573], length 0
+12:24:17.023138 IP 10.42.0.1.53 > 10.42.0.112.51036: Flags [F.], seq 38, ack 39, win 64, options [nop,nop,TS val 2790485240 ecr 1910206299], length 0
+12:24:17.023179 IP 10.42.0.112.38720 > 10.42.0.1.53: 14447+ A? a1-us.iotbing.com. (35)
+12:24:17.023478 IP 10.42.0.112.51040 > 10.42.0.1.53: Flags [.], ack 38, win 256, options [nop,nop,TS val 1910206307 ecr 1172656938], length 0
+12:24:17.023546 IP 10.42.0.112.51040 > 10.42.0.1.53: Flags [F.], seq 38, ack 38, win 256, options [nop,nop,TS val 1910206307 ecr 1172656938], length 0
+12:24:17.023622 IP 10.42.0.112.51068 > 10.42.0.1.53: Flags [.], ack 1, win 256, options [nop,nop,TS val 1910206307 ecr 1197969457], length 0
+12:24:17.023658 IP 10.42.0.1.53 > 10.42.0.112.51040: Flags [F.], seq 38, ack 39, win 64, options [nop,nop,TS val 1172656948 ecr 1910206307], length 0
+12:24:17.023714 IP 10.42.0.112.51068 > 10.42.0.1.53: Flags [P.], seq 1:38, ack 1, win 256, options [nop,nop,TS val 1910206307 ecr 1197969457], length 37 22647+ A? a1-us.iotbing.com. (35)
+12:24:17.023735 IP 10.42.0.1.53 > 10.42.0.112.51068: Flags [.], ack 38, win 64, options [nop,nop,TS val 1197969466 ecr 1910206307], length 0
+12:24:17.023784 IP 10.42.0.112.51052 > 10.42.0.1.53: Flags [.], ack 38, win 256, options [nop,nop,TS val 1910206308 ecr 2860475939], length 0
+12:24:17.024376 IP 10.42.0.112.51052 > 10.42.0.1.53: Flags [F.], seq 38, ack 38, win 256, options [nop,nop,TS val 1910206308 ecr 2860475939], length 0
+12:24:17.024376 IP 10.42.0.112.44322 > 10.42.0.1.53: 36259+ A? a1-us.iotbing.com. (35)
+12:24:17.024474 IP 10.42.0.1.53 > 10.42.0.112.51052: Flags [F.], seq 38, ack 39, win 64, options [nop,nop,TS val 2860475948 ecr 1910206308], length 0
+12:24:17.024867 IP 10.42.0.112.48032 > 10.42.0.1.53: 17184+ A? a1-us.iotbing.com. (35)
+12:24:17.026012 IP 10.42.0.112.51036 > 10.42.0.1.53: Flags [.], ack 39, win 256, options [nop,nop,TS val 1910206311 ecr 2790485240], length 0
+12:24:17.026179 IP 10.42.0.1.53 > 10.42.0.112.51068: Flags [P.], seq 1:38, ack 38, win 64, options [nop,nop,TS val 1197969469 ecr 1910206307], length 37 22647 Refused* 0/0/0 (35)
+12:24:17.026344 IP 10.42.0.112.51040 > 10.42.0.1.53: Flags [.], ack 39, win 256, options [nop,nop,TS val 1910206311 ecr 1172656948], length 0
+12:24:17.026399 IP 10.42.0.112.51052 > 10.42.0.1.53: Flags [.], ack 39, win 256, options [nop,nop,TS val 1910206312 ecr 2860475948], length 0
+12:24:17.027225 IP 10.42.0.112.51068 > 10.42.0.1.53: Flags [.], ack 38, win 256, options [nop,nop,TS val 1910206312 ecr 1197969469], length 0
+12:24:17.027608 IP 10.42.0.112.51068 > 10.42.0.1.53: Flags [F.], seq 38, ack 38, win 256, options [nop,nop,TS val 1910206313 ecr 1197969469], length 0
+12:24:17.027712 IP 10.42.0.1.53 > 10.42.0.112.51068: Flags [F.], seq 38, ack 39, win 64, options [nop,nop,TS val 1197969470 ecr 1910206313], length 0
+12:24:17.029371 IP 10.42.0.112.35415 > 10.42.0.1.53: 22647+ A? a1-us.iotbing.com. (35)
+12:24:17.030166 IP 10.42.0.112.51068 > 10.42.0.1.53: Flags [.], ack 39, win 256, options [nop,nop,TS val 1910206315 ecr 1197969470], length 0
+12:24:17.034650 IP 10.42.0.112.51080 > 10.42.0.1.53: Flags [S], seq 3558164603, win 65535, options [mss 1460,sackOK,TS val 1910206320 ecr 0,nop,wscale 8], length 0
+12:24:17.034779 IP 10.42.0.1.53 > 10.42.0.112.51080: Flags [S.], seq 1540042899, ack 3558164604, win 65160, options [mss 1460,sackOK,TS val 1952782584 ecr 1910206320,nop,wscale 10], length 0
+12:24:17.041521 IP 10.42.0.112.51080 > 10.42.0.1.53: Flags [.], ack 1, win 256, options [nop,nop,TS val 1910206327 ecr 1952782584], length 0
+12:24:17.041726 IP 10.42.0.112.51080 > 10.42.0.1.53: Flags [P.], seq 1:38, ack 1, win 256, options [nop,nop,TS val 1910206327 ecr 1952782584], length 37 38471+ A? a1-us.iotbing.com. (35)
+12:24:17.041786 IP 10.42.0.1.53 > 10.42.0.112.51080: Flags [.], ack 38, win 64, options [nop,nop,TS val 1952782591 ecr 1910206327], length 0
+12:24:17.043895 IP 10.42.0.1.53 > 10.42.0.112.51080: Flags [P.], seq 1:38, ack 38, win 64, options [nop,nop,TS val 1952782593 ecr 1910206327], length 37 38471 Refused* 0/0/0 (35)
+12:24:17.048494 IP 10.42.0.112.51080 > 10.42.0.1.53: Flags [.], ack 38, win 256, options [nop,nop,TS val 1910206333 ecr 1952782593], length 0
+12:24:17.048579 IP 10.42.0.112.51080 > 10.42.0.1.53: Flags [F.], seq 38, ack 38, win 256, options [nop,nop,TS val 1910206333 ecr 1952782593], length 0
+12:24:17.048755 IP 10.42.0.1.53 > 10.42.0.112.51080: Flags [F.], seq 38, ack 39, win 64, options [nop,nop,TS val 1952782598 ecr 1910206333], length 0
+12:24:17.049598 IP 10.42.0.112.51080 > 10.42.0.1.53: Flags [.], ack 39, win 256, options [nop,nop,TS val 1910206335 ecr 1952782598], length 0
+12:24:17.050020 IP 10.42.0.112.49384 > 10.42.0.1.53: 38471+ A? a1-us.iotbing.com. (35)
+12:24:17.719777 IP 10.42.0.112.51649 > 10.42.0.1.53: 48941+ AAAA? controlplane.tailscale.com. (44)
+12:24:17.719919 IP 10.42.0.112.50747 > 10.42.0.1.53: 43544+ A? controlplane.tailscale.com. (44)
+12:24:18.398228 IP 10.42.0.112.14514 > 10.42.0.1.53: 17864+ A? www.google.com. (32)
+12:24:18.401165 IP 10.42.0.112.27973 > 10.42.0.1.53: 57365+ A? connectivitycheck.gstatic.com. (47)
+12:24:19.012680 IP 10.42.0.112.51096 > 10.42.0.1.53: Flags [S], seq 1525216960, win 65535, options [mss 1460,sackOK,TS val 1910208272 ecr 0,nop,wscale 8], length 0
+12:24:19.012869 IP 10.42.0.1.53 > 10.42.0.112.51096: Flags [S.], seq 1967372610, ack 1525216961, win 65160, options [mss 1460,sackOK,TS val 3877556545 ecr 1910208272,nop,wscale 10], length 0
+12:24:19.012951 IP 10.42.0.112.51098 > 10.42.0.1.53: Flags [S], seq 3819854424, win 65535, options [mss 1460,sackOK,TS val 1910208281 ecr 0,nop,wscale 8], length 0
+12:24:19.013045 IP 10.42.0.1.53 > 10.42.0.112.51098: Flags [S.], seq 2800978441, ack 3819854425, win 65160, options [mss 1460,sackOK,TS val 3859675424 ecr 1910208281,nop,wscale 10], length 0
+12:24:19.013098 IP 10.42.0.112.51104 > 10.42.0.1.53: Flags [S], seq 1357287096, win 65535, options [mss 1460,sackOK,TS val 1910208282 ecr 0,nop,wscale 8], length 0
+12:24:19.013183 IP 10.42.0.1.53 > 10.42.0.112.51104: Flags [S.], seq 3827139255, ack 1357287097, win 65160, options [mss 1460,sackOK,TS val 2785330440 ecr 1910208282,nop,wscale 10], length 0
+12:24:19.013227 IP 10.42.0.112.51112 > 10.42.0.1.53: Flags [S], seq 844435727, win 65535, options [mss 1460,sackOK,TS val 1910208285 ecr 0,nop,wscale 8], length 0
+12:24:19.013304 IP 10.42.0.1.53 > 10.42.0.112.51112: Flags [S.], seq 1640263572, ack 844435728, win 65160, options [mss 1460,sackOK,TS val 2347953700 ecr 1910208285,nop,wscale 10], length 0
+12:24:19.013828 IP 10.42.0.112.51126 > 10.42.0.1.53: Flags [S], seq 3586958360, win 65535, options [mss 1460,sackOK,TS val 1910208285 ecr 0,nop,wscale 8], length 0
+12:24:19.014015 IP 10.42.0.1.53 > 10.42.0.112.51126: Flags [S.], seq 709733234, ack 3586958361, win 65160, options [mss 1460,sackOK,TS val 950194783 ecr 1910208285,nop,wscale 10], length 0
+12:24:19.014117 IP 10.42.0.112.51138 > 10.42.0.1.53: Flags [S], seq 2399872570, win 65535, options [mss 1460,sackOK,TS val 1910208287 ecr 0,nop,wscale 8], length 0
+12:24:19.014214 IP 10.42.0.1.53 > 10.42.0.112.51138: Flags [S.], seq 183585804, ack 2399872571, win 65160, options [mss 1460,sackOK,TS val 1029989934 ecr 1910208287,nop,wscale 10], length 0
+12:24:19.015002 IP 10.42.0.112.51150 > 10.42.0.1.53: Flags [S], seq 13725876, win 65535, options [mss 1460,sackOK,TS val 1910208300 ecr 0,nop,wscale 8], length 0
+12:24:19.015190 IP 10.42.0.1.53 > 10.42.0.112.51150: Flags [S.], seq 2812311109, ack 13725877, win 65160, options [mss 1460,sackOK,TS val 3224895551 ecr 1910208300,nop,wscale 10], length 0
+12:24:19.015262 IP 10.42.0.112.51096 > 10.42.0.1.53: Flags [.], ack 1, win 256, options [nop,nop,TS val 1910208300 ecr 3877556545], length 0
+12:24:19.016151 IP 10.42.0.112.51096 > 10.42.0.1.53: Flags [P.], seq 1:38, ack 1, win 256, options [nop,nop,TS val 1910208300 ecr 3877556545], length 37 17946+ A? a1-us.iotbing.com. (35)
+12:24:19.016278 IP 10.42.0.1.53 > 10.42.0.112.51096: Flags [.], ack 38, win 64, options [nop,nop,TS val 3877556549 ecr 1910208300], length 0
+12:24:19.018084 IP 10.42.0.112.51154 > 10.42.0.1.53: Flags [S], seq 3623239749, win 65535, options [mss 1460,sackOK,TS val 1910208303 ecr 0,nop,wscale 8], length 0
+12:24:19.018144 IP 10.42.0.1.53 > 10.42.0.112.51154: Flags [S.], seq 1748741279, ack 3623239750, win 65160, options [mss 1460,sackOK,TS val 2833492525 ecr 1910208303,nop,wscale 10], length 0
+12:24:19.018200 IP 10.42.0.1.53 > 10.42.0.112.51096: Flags [P.], seq 1:38, ack 38, win 64, options [nop,nop,TS val 3877556551 ecr 1910208300], length 37 17946 Refused* 0/0/0 (35)
+12:24:19.020085 IP 10.42.0.112.51098 > 10.42.0.1.53: Flags [.], ack 1, win 256, options [nop,nop,TS val 1910208305 ecr 3859675424], length 0
+12:24:19.020460 IP 10.42.0.112.51098 > 10.42.0.1.53: Flags [P.], seq 1:38, ack 1, win 256, options [nop,nop,TS val 1910208305 ecr 3859675424], length 37 18702+ A? a1-us.iotbing.com. (35)
+12:24:19.020498 IP 10.42.0.1.53 > 10.42.0.112.51098: Flags [.], ack 38, win 64, options [nop,nop,TS val 3859675431 ecr 1910208305], length 0
+12:24:19.020742 IP 10.42.0.112.51112 > 10.42.0.1.53: Flags [.], ack 1, win 256, options [nop,nop,TS val 1910208306 ecr 2347953700], length 0
+12:24:19.021102 IP 10.42.0.112.51112 > 10.42.0.1.53: Flags [P.], seq 1:38, ack 1, win 256, options [nop,nop,TS val 1910208306 ecr 2347953700], length 37 65497+ A? a1-us.iotbing.com. (35)
+12:24:19.021136 IP 10.42.0.1.53 > 10.42.0.112.51112: Flags [.], ack 38, win 64, options [nop,nop,TS val 2347953708 ecr 1910208306], length 0
+12:24:19.021160 IP 10.42.0.112.51126 > 10.42.0.1.53: Flags [.], ack 1, win 256, options [nop,nop,TS val 1910208306 ecr 950194783], length 0
+12:24:19.021307 IP 10.42.0.112.51138 > 10.42.0.1.53: Flags [.], ack 1, win 256, options [nop,nop,TS val 1910208306 ecr 1029989934], length 0
+12:24:19.021635 IP 10.42.0.112.51126 > 10.42.0.1.53: Flags [P.], seq 1:38, ack 1, win 256, options [nop,nop,TS val 1910208307 ecr 950194783], length 37 45717+ A? a1-us.iotbing.com. (35)
+12:24:19.021656 IP 10.42.0.1.53 > 10.42.0.112.51126: Flags [.], ack 38, win 64, options [nop,nop,TS val 950194790 ecr 1910208307], length 0
+12:24:19.021752 IP 10.42.0.112.51104 > 10.42.0.1.53: Flags [.], ack 1, win 256, options [nop,nop,TS val 1910208307 ecr 2785330440], length 0
+12:24:19.022145 IP 10.42.0.112.51150 > 10.42.0.1.53: Flags [.], ack 1, win 256, options [nop,nop,TS val 1910208307 ecr 3224895551], length 0
+12:24:19.022520 IP 10.42.0.1.53 > 10.42.0.112.51098: Flags [P.], seq 1:38, ack 38, win 64, options [nop,nop,TS val 3859675433 ecr 1910208305], length 37 18702 Refused* 0/0/0 (35)
+12:24:19.022687 IP 10.42.0.112.51104 > 10.42.0.1.53: Flags [P.], seq 1:38, ack 1, win 256, options [nop,nop,TS val 1910208307 ecr 2785330440], length 37 30422+ A? a1-us.iotbing.com. (35)
+12:24:19.022707 IP 10.42.0.1.53 > 10.42.0.112.51104: Flags [.], ack 38, win 64, options [nop,nop,TS val 2785330449 ecr 1910208307], length 0
+12:24:19.022863 IP 10.42.0.112.51138 > 10.42.0.1.53: Flags [P.], seq 1:38, ack 1, win 256, options [nop,nop,TS val 1910208307 ecr 1029989934], length 37 57873+ A? a1-us.iotbing.com. (35)
+12:24:19.022897 IP 10.42.0.1.53 > 10.42.0.112.51138: Flags [.], ack 38, win 64, options [nop,nop,TS val 1029989942 ecr 1910208307], length 0
+12:24:19.023273 IP 10.42.0.112.51096 > 10.42.0.1.53: Flags [.], ack 38, win 256, options [nop,nop,TS val 1910208308 ecr 3877556551], length 0
+12:24:19.023350 IP 10.42.0.1.53 > 10.42.0.112.51112: Flags [P.], seq 1:38, ack 38, win 64, options [nop,nop,TS val 2347953710 ecr 1910208306], length 37 65497 Refused* 0/0/0 (35)
+12:24:19.024278 IP 10.42.0.112.51150 > 10.42.0.1.53: Flags [P.], seq 1:38, ack 1, win 256, options [nop,nop,TS val 1910208308 ecr 3224895551], length 37 64520+ A? a1-us.iotbing.com. (35)
+12:24:19.024315 IP 10.42.0.1.53 > 10.42.0.112.51150: Flags [.], ack 38, win 64, options [nop,nop,TS val 3224895560 ecr 1910208308], length 0
+12:24:19.024486 IP 10.42.0.1.53 > 10.42.0.112.51126: Flags [P.], seq 1:38, ack 38, win 64, options [nop,nop,TS val 950194793 ecr 1910208307], length 37 45717 Refused* 0/0/0 (35)
+12:24:19.024747 IP 10.42.0.112.51154 > 10.42.0.1.53: Flags [.], ack 1, win 256, options [nop,nop,TS val 1910208309 ecr 2833492525], length 0
+12:24:19.025716 IP 10.42.0.1.53 > 10.42.0.112.51138: Flags [P.], seq 1:38, ack 38, win 64, options [nop,nop,TS val 1029989945 ecr 1910208307], length 37 57873 Refused* 0/0/0 (35)
+12:24:19.026977 IP 10.42.0.1.53 > 10.42.0.112.51104: Flags [P.], seq 1:38, ack 38, win 64, options [nop,nop,TS val 2785330454 ecr 1910208307], length 37 30422 Refused* 0/0/0 (35)
+12:24:19.027821 IP 10.42.0.1.53 > 10.42.0.112.51150: Flags [P.], seq 1:38, ack 38, win 64, options [nop,nop,TS val 3224895563 ecr 1910208308], length 37 64520 Refused* 0/0/0 (35)
+12:24:19.028163 IP 10.42.0.112.51138 > 10.42.0.1.53: Flags [.], ack 38, win 256, options [nop,nop,TS val 1910208313 ecr 1029989945], length 0
+12:24:19.028770 IP 10.42.0.112.51112 > 10.42.0.1.53: Flags [.], ack 38, win 256, options [nop,nop,TS val 1910208313 ecr 2347953710], length 0
+12:24:19.028800 IP 10.42.0.112.51126 > 10.42.0.1.53: Flags [.], ack 38, win 256, options [nop,nop,TS val 1910208313 ecr 950194793], length 0
+12:24:19.029068 IP 10.42.0.112.51098 > 10.42.0.1.53: Flags [.], ack 38, win 256, options [nop,nop,TS val 1910208314 ecr 3859675433], length 0
+12:24:19.029252 IP 10.42.0.112.51104 > 10.42.0.1.53: Flags [.], ack 38, win 256, options [nop,nop,TS val 1910208314 ecr 2785330454], length 0
+12:24:19.029548 IP 10.42.0.112.51150 > 10.42.0.1.53: Flags [.], ack 38, win 256, options [nop,nop,TS val 1910208314 ecr 3224895563], length 0
+12:24:19.035253 IP 10.42.0.112.51096 > 10.42.0.1.53: Flags [F.], seq 38, ack 38, win 256, options [nop,nop,TS val 1910208320 ecr 3877556551], length 0
+12:24:19.035391 IP 10.42.0.1.53 > 10.42.0.112.51096: Flags [F.], seq 38, ack 39, win 64, options [nop,nop,TS val 3877556568 ecr 1910208320], length 0
+12:24:19.035705 IP 10.42.0.112.51160 > 10.42.0.1.53: Flags [S], seq 1839340843, win 65535, options [mss 1460,sackOK,TS val 1910208320 ecr 0,nop,wscale 8], length 0
+12:24:19.035812 IP 10.42.0.1.53 > 10.42.0.112.51160: Flags [S.], seq 3560688033, ack 1839340844, win 65160, options [mss 1460,sackOK,TS val 2625889842 ecr 1910208320,nop,wscale 10], length 0
+12:24:19.036650 IP 10.42.0.112.51164 > 10.42.0.1.53: Flags [S], seq 3523357898, win 65535, options [mss 1460,sackOK,TS val 1910208322 ecr 0,nop,wscale 8], length 0
+12:24:19.036731 IP 10.42.0.1.53 > 10.42.0.112.51164: Flags [S.], seq 727911268, ack 3523357899, win 65160, options [mss 1460,sackOK,TS val 3783269836 ecr 1910208322,nop,wscale 10], length 0
+12:24:19.037161 IP 10.42.0.112.51154 > 10.42.0.1.53: Flags [P.], seq 1:38, ack 1, win 256, options [nop,nop,TS val 1910208322 ecr 2833492525], length 37 14447+ A? a1-us.iotbing.com. (35)
+12:24:19.037196 IP 10.42.0.1.53 > 10.42.0.112.51154: Flags [.], ack 38, win 64, options [nop,nop,TS val 2833492544 ecr 1910208322], length 0
+12:24:19.038561 IP 10.42.0.1.53 > 10.42.0.112.51154: Flags [P.], seq 1:38, ack 38, win 64, options [nop,nop,TS val 2833492545 ecr 1910208322], length 37 14447 Refused* 0/0/0 (35)
+12:24:19.042740 IP 10.42.0.112.51150 > 10.42.0.1.53: Flags [F.], seq 38, ack 38, win 256, options [nop,nop,TS val 1910208325 ecr 3224895563], length 0
+12:24:19.042817 IP 10.42.0.112.51112 > 10.42.0.1.53: Flags [F.], seq 38, ack 38, win 256, options [nop,nop,TS val 1910208325 ecr 2347953710], length 0
+12:24:19.042851 IP 10.42.0.112.51138 > 10.42.0.1.53: Flags [F.], seq 38, ack 38, win 256, options [nop,nop,TS val 1910208325 ecr 1029989945], length 0
+12:24:19.042992 IP 10.42.0.1.53 > 10.42.0.112.51112: Flags [F.], seq 38, ack 39, win 64, options [nop,nop,TS val 2347953730 ecr 1910208325], length 0
+12:24:19.043035 IP 10.42.0.1.53 > 10.42.0.112.51138: Flags [F.], seq 38, ack 39, win 64, options [nop,nop,TS val 1029989963 ecr 1910208325], length 0
+12:24:19.043058 IP 10.42.0.1.53 > 10.42.0.112.51150: Flags [F.], seq 38, ack 39, win 64, options [nop,nop,TS val 3224895579 ecr 1910208325], length 0
+12:24:19.044304 IP 10.42.0.112.51098 > 10.42.0.1.53: Flags [F.], seq 38, ack 38, win 256, options [nop,nop,TS val 1910208325 ecr 3859675433], length 0
+12:24:19.044304 IP 10.42.0.112.51104 > 10.42.0.1.53: Flags [F.], seq 38, ack 38, win 256, options [nop,nop,TS val 1910208325 ecr 2785330454], length 0
+12:24:19.044385 IP 10.42.0.1.53 > 10.42.0.112.51098: Flags [F.], seq 38, ack 39, win 64, options [nop,nop,TS val 3859675455 ecr 1910208325], length 0
+12:24:19.044413 IP 10.42.0.1.53 > 10.42.0.112.51104: Flags [F.], seq 38, ack 39, win 64, options [nop,nop,TS val 2785330471 ecr 1910208325], length 0
+12:24:19.047588 IP 10.42.0.112.51178 > 10.42.0.1.53: Flags [S], seq 4194380830, win 65535, options [mss 1460,sackOK,TS val 1910208327 ecr 0,nop,wscale 8], length 0
+12:24:19.047688 IP 10.42.0.1.53 > 10.42.0.112.51178: Flags [S.], seq 3505852631, ack 4194380831, win 65160, options [mss 1460,sackOK,TS val 2921077241 ecr 1910208327,nop,wscale 10], length 0
+12:24:19.047889 IP 10.42.0.112.51096 > 10.42.0.1.53: Flags [.], ack 39, win 256, options [nop,nop,TS val 1910208333 ecr 3877556568], length 0
+12:24:19.047986 IP 10.42.0.112.51126 > 10.42.0.1.53: Flags [F.], seq 38, ack 38, win 256, options [nop,nop,TS val 1910208333 ecr 950194793], length 0
+12:24:19.048135 IP 10.42.0.112.51160 > 10.42.0.1.53: Flags [.], ack 1, win 256, options [nop,nop,TS val 1910208333 ecr 2625889842], length 0
+12:24:19.048261 IP 10.42.0.1.53 > 10.42.0.112.51126: Flags [F.], seq 38, ack 39, win 64, options [nop,nop,TS val 950194817 ecr 1910208333], length 0
+12:24:19.048672 IP 10.42.0.112.51164 > 10.42.0.1.53: Flags [.], ack 1, win 256, options [nop,nop,TS val 1910208333 ecr 3783269836], length 0
+12:24:19.048784 IP 10.42.0.112.51154 > 10.42.0.1.53: Flags [.], ack 38, win 256, options [nop,nop,TS val 1910208334 ecr 2833492545], length 0
+12:24:19.049460 IP 10.42.0.112.51112 > 10.42.0.1.53: Flags [.], ack 39, win 256, options [nop,nop,TS val 1910208334 ecr 2347953730], length 0
+12:24:19.049502 IP 10.42.0.112.51138 > 10.42.0.1.53: Flags [.], ack 39, win 256, options [nop,nop,TS val 1910208334 ecr 1029989963], length 0
+12:24:19.049576 IP 10.42.0.112.51150 > 10.42.0.1.53: Flags [.], ack 39, win 256, options [nop,nop,TS val 1910208334 ecr 3224895579], length 0
+12:24:19.051229 IP 10.42.0.112.51098 > 10.42.0.1.53: Flags [.], ack 39, win 256, options [nop,nop,TS val 1910208334 ecr 3859675455], length 0
+12:24:19.051278 IP 10.42.0.112.51104 > 10.42.0.1.53: Flags [.], ack 39, win 256, options [nop,nop,TS val 1910208335 ecr 2785330471], length 0
+12:24:19.051348 IP 10.42.0.112.51126 > 10.42.0.1.53: Flags [.], ack 39, win 256, options [nop,nop,TS val 1910208335 ecr 950194817], length 0
+12:24:19.051466 IP 10.42.0.112.51178 > 10.42.0.1.53: Flags [.], ack 1, win 256, options [nop,nop,TS val 1910208335 ecr 2921077241], length 0
+12:24:19.052803 IP 10.42.0.112.51160 > 10.42.0.1.53: Flags [P.], seq 1:38, ack 1, win 256, options [nop,nop,TS val 1910208338 ecr 2625889842], length 37 36259+ A? a1-us.iotbing.com. (35)
+12:24:19.052839 IP 10.42.0.1.53 > 10.42.0.112.51160: Flags [.], ack 38, win 64, options [nop,nop,TS val 2625889859 ecr 1910208338], length 0
+12:24:19.053456 IP 10.42.0.1.53 > 10.42.0.112.51160: Flags [P.], seq 1:38, ack 38, win 64, options [nop,nop,TS val 2625889860 ecr 1910208338], length 37 36259 Refused* 0/0/0 (35)
+12:24:19.053891 IP 10.42.0.112.51164 > 10.42.0.1.53: Flags [P.], seq 1:38, ack 1, win 256, options [nop,nop,TS val 1910208338 ecr 3783269836], length 37 17184+ A? a1-us.iotbing.com. (35)
+12:24:19.053930 IP 10.42.0.1.53 > 10.42.0.112.51164: Flags [.], ack 38, win 64, options [nop,nop,TS val 3783269854 ecr 1910208338], length 0
+12:24:19.053988 IP 10.42.0.112.51178 > 10.42.0.1.53: Flags [P.], seq 1:38, ack 1, win 256, options [nop,nop,TS val 1910208338 ecr 2921077241], length 37 22647+ A? a1-us.iotbing.com. (35)
+12:24:19.054006 IP 10.42.0.1.53 > 10.42.0.112.51178: Flags [.], ack 38, win 64, options [nop,nop,TS val 2921077248 ecr 1910208338], length 0
+12:24:19.054738 IP 10.42.0.1.53 > 10.42.0.112.51178: Flags [P.], seq 1:38, ack 38, win 64, options [nop,nop,TS val 2921077248 ecr 1910208338], length 37 22647 Refused* 0/0/0 (35)
+12:24:19.054791 IP 10.42.0.1.53 > 10.42.0.112.51164: Flags [P.], seq 1:38, ack 38, win 64, options [nop,nop,TS val 3783269854 ecr 1910208338], length 37 17184 Refused* 0/0/0 (35)
+12:24:19.055118 IP 10.42.0.112.51154 > 10.42.0.1.53: Flags [F.], seq 38, ack 38, win 256, options [nop,nop,TS val 1910208339 ecr 2833492545], length 0
+12:24:19.055227 IP 10.42.0.1.53 > 10.42.0.112.51154: Flags [F.], seq 38, ack 39, win 64, options [nop,nop,TS val 2833492562 ecr 1910208339], length 0
+12:24:19.056152 IP 10.42.0.112.51180 > 10.42.0.1.53: Flags [S], seq 1824341853, win 65535, options [mss 1460,sackOK,TS val 1910208341 ecr 0,nop,wscale 8], length 0
+12:24:19.056205 IP 10.42.0.1.53 > 10.42.0.112.51180: Flags [S.], seq 2935060409, ack 1824341854, win 65160, options [mss 1460,sackOK,TS val 1846640675 ecr 1910208341,nop,wscale 10], length 0
+12:24:19.058702 IP 10.42.0.112.51160 > 10.42.0.1.53: Flags [.], ack 38, win 256, options [nop,nop,TS val 1910208344 ecr 2625889860], length 0
+12:24:19.059143 IP 10.42.0.112.51164 > 10.42.0.1.53: Flags [.], ack 38, win 256, options [nop,nop,TS val 1910208344 ecr 3783269854], length 0
+12:24:19.059207 IP 10.42.0.112.51178 > 10.42.0.1.53: Flags [.], ack 38, win 256, options [nop,nop,TS val 1910208344 ecr 2921077248], length 0
+12:24:19.059314 IP 10.42.0.112.51154 > 10.42.0.1.53: Flags [.], ack 39, win 256, options [nop,nop,TS val 1910208344 ecr 2833492562], length 0
+12:24:19.059467 IP 10.42.0.112.51160 > 10.42.0.1.53: Flags [F.], seq 38, ack 38, win 256, options [nop,nop,TS val 1910208344 ecr 2625889860], length 0
+12:24:19.059597 IP 10.42.0.1.53 > 10.42.0.112.51160: Flags [F.], seq 38, ack 39, win 64, options [nop,nop,TS val 2625889866 ecr 1910208344], length 0
+12:24:19.059973 IP 10.42.0.112.51180 > 10.42.0.1.53: Flags [.], ack 1, win 256, options [nop,nop,TS val 1910208344 ecr 1846640675], length 0
+12:24:19.060023 IP 10.42.0.112.51180 > 10.42.0.1.53: Flags [P.], seq 1:38, ack 1, win 256, options [nop,nop,TS val 1910208345 ecr 1846640675], length 37 38471+ A? a1-us.iotbing.com. (35)
+12:24:19.060040 IP 10.42.0.1.53 > 10.42.0.112.51180: Flags [.], ack 38, win 64, options [nop,nop,TS val 1846640679 ecr 1910208345], length 0
+12:24:19.060061 IP 10.42.0.112.51164 > 10.42.0.1.53: Flags [F.], seq 38, ack 38, win 256, options [nop,nop,TS val 1910208345 ecr 3783269854], length 0
+12:24:19.060110 IP 10.42.0.1.53 > 10.42.0.112.51164: Flags [F.], seq 38, ack 39, win 64, options [nop,nop,TS val 3783269860 ecr 1910208345], length 0
+12:24:19.060599 IP 10.42.0.112.51178 > 10.42.0.1.53: Flags [F.], seq 38, ack 38, win 256, options [nop,nop,TS val 1910208345 ecr 2921077248], length 0
+12:24:19.060666 IP 10.42.0.1.53 > 10.42.0.112.51178: Flags [F.], seq 38, ack 39, win 64, options [nop,nop,TS val 2921077254 ecr 1910208345], length 0
+12:24:19.060688 IP 10.42.0.112.51160 > 10.42.0.1.53: Flags [.], ack 39, win 256, options [nop,nop,TS val 1910208345 ecr 2625889866], length 0
+12:24:19.061432 IP 10.42.0.1.53 > 10.42.0.112.51180: Flags [P.], seq 1:38, ack 38, win 64, options [nop,nop,TS val 1846640680 ecr 1910208345], length 37 38471 Refused* 0/0/0 (35)
+12:24:19.061682 IP 10.42.0.112.51164 > 10.42.0.1.53: Flags [.], ack 39, win 256, options [nop,nop,TS val 1910208347 ecr 3783269860], length 0
+12:24:19.065513 IP 10.42.0.112.51178 > 10.42.0.1.53: Flags [.], ack 39, win 256, options [nop,nop,TS val 1910208348 ecr 2921077254], length 0
+12:24:19.070838 IP 10.42.0.112.51180 > 10.42.0.1.53: Flags [.], ack 38, win 256, options [nop,nop,TS val 1910208355 ecr 1846640680], length 0
+12:24:19.071187 IP 10.42.0.112.51180 > 10.42.0.1.53: Flags [F.], seq 38, ack 38, win 256, options [nop,nop,TS val 1910208356 ecr 1846640680], length 0
+12:24:19.071319 IP 10.42.0.1.53 > 10.42.0.112.51180: Flags [F.], seq 38, ack 39, win 64, options [nop,nop,TS val 1846640690 ecr 1910208356], length 0
+12:24:19.072145 IP 10.42.0.112.51180 > 10.42.0.1.53: Flags [.], ack 39, win 256, options [nop,nop,TS val 1910208357 ecr 1846640690], length 0
+12:24:19.696458 IP 10.42.0.112.51188 > 10.42.0.1.53: Flags [S], seq 2295188314, win 65535, options [mss 1460,sackOK,TS val 1910208981 ecr 0,nop,wscale 8], length 0
+12:24:19.696644 IP 10.42.0.1.53 > 10.42.0.112.51188: Flags [S.], seq 4265193125, ack 2295188315, win 65160, options [mss 1460,sackOK,TS val 3563165594 ecr 1910208981,nop,wscale 10], length 0
+12:24:19.699689 IP 10.42.0.112.51190 > 10.42.0.1.53: Flags [S], seq 2057222566, win 65535, options [mss 1460,sackOK,TS val 1910208982 ecr 0,nop,wscale 8], length 0
+12:24:19.699876 IP 10.42.0.1.53 > 10.42.0.112.51190: Flags [S.], seq 3894700904, ack 2057222567, win 65160, options [mss 1460,sackOK,TS val 793384714 ecr 1910208982,nop,wscale 10], length 0
+12:24:19.709384 IP 10.42.0.112.51188 > 10.42.0.1.53: Flags [.], ack 1, win 256, options [nop,nop,TS val 1910208992 ecr 3563165594], length 0
+12:24:19.740292 IP 10.42.0.112.51188 > 10.42.0.1.53: Flags [P.], seq 1:47, ack 1, win 256, options [nop,nop,TS val 1910208993 ecr 3563165594], length 46 48941+ AAAA? controlplane.tailscale.com. (44)
+12:24:19.740464 IP 10.42.0.1.53 > 10.42.0.112.51188: Flags [.], ack 47, win 64, options [nop,nop,TS val 3563165638 ecr 1910208993], length 0
+12:24:19.742062 IP 10.42.0.112.51190 > 10.42.0.1.53: Flags [.], ack 1, win 256, options [nop,nop,TS val 1910209027 ecr 793384714], length 0
+12:24:19.742375 IP 10.42.0.112.51190 > 10.42.0.1.53: Flags [P.], seq 1:47, ack 1, win 256, options [nop,nop,TS val 1910209027 ecr 793384714], length 46 43544+ A? controlplane.tailscale.com. (44)
+12:24:19.742401 IP 10.42.0.1.53 > 10.42.0.112.51190: Flags [.], ack 47, win 64, options [nop,nop,TS val 793384757 ecr 1910209027], length 0
+12:24:19.742424 IP 10.42.0.1.53 > 10.42.0.112.51188: Flags [P.], seq 1:47, ack 47, win 64, options [nop,nop,TS val 3563165640 ecr 1910208993], length 46 48941 Refused* 0/0/0 (44)
+12:24:19.743298 IP 10.42.0.112.51188 > 10.42.0.1.53: Flags [.], ack 47, win 256, options [nop,nop,TS val 1910209028 ecr 3563165640], length 0
+12:24:19.744152 IP 10.42.0.112.51188 > 10.42.0.1.53: Flags [F.], seq 47, ack 47, win 256, options [nop,nop,TS val 1910209029 ecr 3563165640], length 0
+12:24:19.744253 IP 10.42.0.1.53 > 10.42.0.112.51188: Flags [F.], seq 47, ack 48, win 64, options [nop,nop,TS val 3563165642 ecr 1910209029], length 0
+12:24:19.745207 IP 10.42.0.112.51188 > 10.42.0.1.53: Flags [.], ack 48, win 256, options [nop,nop,TS val 1910209030 ecr 3563165642], length 0
+12:24:19.745294 IP 10.42.0.1.53 > 10.42.0.112.51190: Flags [P.], seq 1:47, ack 47, win 64, options [nop,nop,TS val 793384760 ecr 1910209027], length 46 43544 Refused* 0/0/0 (44)
+12:24:19.746621 IP 10.42.0.112.51190 > 10.42.0.1.53: Flags [.], ack 47, win 256, options [nop,nop,TS val 1910209031 ecr 793384760], length 0
+12:24:19.747790 IP 10.42.0.112.51190 > 10.42.0.1.53: Flags [F.], seq 47, ack 47, win 256, options [nop,nop,TS val 1910209032 ecr 793384760], length 0
+12:24:19.747983 IP 10.42.0.1.53 > 10.42.0.112.51190: Flags [F.], seq 47, ack 48, win 64, options [nop,nop,TS val 793384763 ecr 1910209032], length 0
+12:24:19.749228 IP 10.42.0.112.38387 > 10.42.0.1.53: 48941+ AAAA? controlplane.tailscale.com. (44)
+12:24:19.750651 IP 10.42.0.112.51190 > 10.42.0.1.53: Flags [.], ack 48, win 256, options [nop,nop,TS val 1910209036 ecr 793384763], length 0
+12:24:19.751955 IP 10.42.0.112.57835 > 10.42.0.1.53: 43544+ A? controlplane.tailscale.com. (44)
+12:24:21.373782 IP 10.42.0.112.13999 > 10.42.0.1.53: 41521+ A? play.googleapis.com. (37)
+12:24:21.751291 IP 10.42.0.112.51198 > 10.42.0.1.53: Flags [S], seq 2424056813, win 65535, options [mss 1460,sackOK,TS val 1910211036 ecr 0,nop,wscale 8], length 0
+12:24:21.751492 IP 10.42.0.1.53 > 10.42.0.112.51198: Flags [S.], seq 3462312995, ack 2424056814, win 65160, options [mss 1460,sackOK,TS val 303695372 ecr 1910211036,nop,wscale 10], length 0
+12:24:21.752933 IP 10.42.0.112.51198 > 10.42.0.1.53: Flags [.], ack 1, win 256, options [nop,nop,TS val 1910211038 ecr 303695372], length 0
+12:24:21.753373 IP 10.42.0.112.51198 > 10.42.0.1.53: Flags [P.], seq 1:47, ack 1, win 256, options [nop,nop,TS val 1910211038 ecr 303695372], length 46 48941+ AAAA? controlplane.tailscale.com. (44)
+12:24:21.753513 IP 10.42.0.1.53 > 10.42.0.112.51198: Flags [.], ack 47, win 64, options [nop,nop,TS val 303695374 ecr 1910211038], length 0
+12:24:21.753627 IP 10.42.0.112.51202 > 10.42.0.1.53: Flags [S], seq 3787842383, win 65535, options [mss 1460,sackOK,TS val 1910211038 ecr 0,nop,wscale 8], length 0
+12:24:21.753840 IP 10.42.0.1.53 > 10.42.0.112.51202: Flags [S.], seq 2153465759, ack 3787842384, win 65160, options [mss 1460,sackOK,TS val 3368431783 ecr 1910211038,nop,wscale 10], length 0
+12:24:21.756204 IP 10.42.0.1.53 > 10.42.0.112.51198: Flags [P.], seq 1:47, ack 47, win 64, options [nop,nop,TS val 303695377 ecr 1910211038], length 46 48941 Refused* 0/0/0 (44)
+12:24:21.758457 IP 10.42.0.112.51202 > 10.42.0.1.53: Flags [.], ack 1, win 256, options [nop,nop,TS val 1910211043 ecr 3368431783], length 0
+12:24:21.759059 IP 10.42.0.112.51198 > 10.42.0.1.53: Flags [.], ack 47, win 256, options [nop,nop,TS val 1910211044 ecr 303695377], length 0
+12:24:21.759209 IP 10.42.0.112.51202 > 10.42.0.1.53: Flags [P.], seq 1:47, ack 1, win 256, options [nop,nop,TS val 1910211044 ecr 3368431783], length 46 43544+ A? controlplane.tailscale.com. (44)
+12:24:21.759325 IP 10.42.0.1.53 > 10.42.0.112.51202: Flags [.], ack 47, win 64, options [nop,nop,TS val 3368431789 ecr 1910211044], length 0
+12:24:21.760334 IP 10.42.0.112.51198 > 10.42.0.1.53: Flags [F.], seq 47, ack 47, win 256, options [nop,nop,TS val 1910211044 ecr 303695377], length 0
+12:24:21.760479 IP 10.42.0.1.53 > 10.42.0.112.51198: Flags [F.], seq 47, ack 48, win 64, options [nop,nop,TS val 303695381 ecr 1910211044], length 0
+12:24:21.761568 IP 10.42.0.1.53 > 10.42.0.112.51202: Flags [P.], seq 1:47, ack 47, win 64, options [nop,nop,TS val 3368431791 ecr 1910211044], length 46 43544 Refused* 0/0/0 (44)
+12:24:21.761672 IP 10.42.0.112.51198 > 10.42.0.1.53: Flags [.], ack 48, win 256, options [nop,nop,TS val 1910211047 ecr 303695381], length 0
+12:24:21.762999 IP 10.42.0.112.51202 > 10.42.0.1.53: Flags [.], ack 47, win 256, options [nop,nop,TS val 1910211048 ecr 3368431791], length 0
+12:24:21.764360 IP 10.42.0.112.51202 > 10.42.0.1.53: Flags [F.], seq 47, ack 47, win 256, options [nop,nop,TS val 1910211049 ecr 3368431791], length 0
+12:24:21.764620 IP 10.42.0.1.53 > 10.42.0.112.51202: Flags [F.], seq 47, ack 48, win 64, options [nop,nop,TS val 3368431794 ecr 1910211049], length 0
+12:24:21.766009 IP 10.42.0.112.51202 > 10.42.0.1.53: Flags [.], ack 48, win 256, options [nop,nop,TS val 1910211051 ecr 3368431794], length 0
+12:24:23.432419 IP 10.42.0.112.14514 > 10.42.0.1.53: 17864+ A? www.google.com. (32)
+12:24:23.432485 IP 10.42.0.112.27973 > 10.42.0.1.53: 57365+ A? connectivitycheck.gstatic.com. (47)
+12:24:26.388063 IP 10.42.0.112.13999 > 10.42.0.1.53: 41521+ A? play.googleapis.com. (37)
+12:24:33.458976 IP 10.42.0.112.5262 > 10.42.0.1.53: 59759+ A? connectivitycheck.gstatic.com. (47)
+12:24:33.459034 IP 10.42.0.112.28295 > 10.42.0.1.53: 3287+ A? www.google.com. (32)
+12:24:35.337130 IP 10.42.0.112.44745 > 10.42.0.1.53: 2012+ AAAA? log.tailscale.com. (35)
+12:24:35.339481 IP 10.42.0.112.37910 > 10.42.0.1.53: 19894+ A? log.tailscale.com. (35)
+12:24:37.369712 IP 10.42.0.112.34348 > 10.42.0.1.53: Flags [S], seq 3397927263, win 65535, options [mss 1460,sackOK,TS val 1910226623 ecr 0,nop,wscale 8], length 0
+12:24:37.369801 IP 10.42.0.1.53 > 10.42.0.112.34348: Flags [S.], seq 2542679678, ack 3397927264, win 65160, options [mss 1460,sackOK,TS val 3955385183 ecr 1910226623,nop,wscale 10], length 0
+12:24:37.369833 IP 10.42.0.112.34350 > 10.42.0.1.53: Flags [S], seq 3490797057, win 65535, options [mss 1460,sackOK,TS val 1910226626 ecr 0,nop,wscale 8], length 0
+12:24:37.369862 IP 10.42.0.1.53 > 10.42.0.112.34350: Flags [S.], seq 3035837516, ack 3490797058, win 65160, options [mss 1460,sackOK,TS val 56617907 ecr 1910226626,nop,wscale 10], length 0
+12:24:37.371597 IP 10.42.0.112.34348 > 10.42.0.1.53: Flags [.], ack 1, win 256, options [nop,nop,TS val 1910226656 ecr 3955385183], length 0
+12:24:37.372360 IP 10.42.0.112.34348 > 10.42.0.1.53: Flags [P.], seq 1:38, ack 1, win 256, options [nop,nop,TS val 1910226657 ecr 3955385183], length 37 2012+ AAAA? log.tailscale.com. (35)
+12:24:37.372393 IP 10.42.0.1.53 > 10.42.0.112.34348: Flags [.], ack 38, win 64, options [nop,nop,TS val 3955385186 ecr 1910226657], length 0
+12:24:37.372776 IP 10.42.0.112.34350 > 10.42.0.1.53: Flags [.], ack 1, win 256, options [nop,nop,TS val 1910226657 ecr 56617907], length 0
+12:24:37.373152 IP 10.42.0.112.34350 > 10.42.0.1.53: Flags [P.], seq 1:38, ack 1, win 256, options [nop,nop,TS val 1910226658 ecr 56617907], length 37 19894+ A? log.tailscale.com. (35)
+12:24:37.373187 IP 10.42.0.1.53 > 10.42.0.112.34350: Flags [.], ack 38, win 64, options [nop,nop,TS val 56617911 ecr 1910226658], length 0
+12:24:37.373255 IP 10.42.0.1.53 > 10.42.0.112.34348: Flags [P.], seq 1:38, ack 38, win 64, options [nop,nop,TS val 3955385187 ecr 1910226657], length 37 2012 Refused* 0/0/0 (35)
+12:24:37.374121 IP 10.42.0.1.53 > 10.42.0.112.34350: Flags [P.], seq 1:38, ack 38, win 64, options [nop,nop,TS val 56617912 ecr 1910226658], length 37 19894 Refused* 0/0/0 (35)
+12:24:37.375252 IP 10.42.0.112.34348 > 10.42.0.1.53: Flags [.], ack 38, win 256, options [nop,nop,TS val 1910226660 ecr 3955385187], length 0
+12:24:37.376344 IP 10.42.0.112.34350 > 10.42.0.1.53: Flags [.], ack 38, win 256, options [nop,nop,TS val 1910226660 ecr 56617912], length 0
+12:24:37.376425 IP 10.42.0.112.34348 > 10.42.0.1.53: Flags [F.], seq 38, ack 38, win 256, options [nop,nop,TS val 1910226660 ecr 3955385187], length 0
+12:24:37.376486 IP 10.42.0.1.53 > 10.42.0.112.34348: Flags [F.], seq 38, ack 39, win 64, options [nop,nop,TS val 3955385190 ecr 1910226660], length 0
+12:24:37.376732 IP 10.42.0.112.34350 > 10.42.0.1.53: Flags [F.], seq 38, ack 38, win 256, options [nop,nop,TS val 1910226661 ecr 56617912], length 0
+12:24:37.376779 IP 10.42.0.1.53 > 10.42.0.112.34350: Flags [F.], seq 38, ack 39, win 64, options [nop,nop,TS val 56617914 ecr 1910226661], length 0
+12:24:37.380089 IP 10.42.0.112.45464 > 10.42.0.1.53: 2012+ AAAA? log.tailscale.com. (35)
+12:24:37.380586 IP 10.42.0.112.54896 > 10.42.0.1.53: 19894+ A? log.tailscale.com. (35)
+12:24:37.419893 IP 10.42.0.112.34348 > 10.42.0.1.53: Flags [.], ack 39, win 256, options [nop,nop,TS val 1910226705 ecr 3955385190], length 0
+12:24:37.420377 IP 10.42.0.112.34350 > 10.42.0.1.53: Flags [.], ack 39, win 256, options [nop,nop,TS val 1910226705 ecr 56617914], length 0
+12:24:39.410650 IP 10.42.0.112.34354 > 10.42.0.1.53: Flags [S], seq 3648449465, win 65535, options [mss 1460,sackOK,TS val 1910228667 ecr 0,nop,wscale 8], length 0
+12:24:39.410837 IP 10.42.0.1.53 > 10.42.0.112.34354: Flags [S.], seq 2379905119, ack 3648449466, win 65160, options [mss 1460,sackOK,TS val 104009276 ecr 1910228667,nop,wscale 10], length 0
+12:24:39.410911 IP 10.42.0.112.34368 > 10.42.0.1.53: Flags [S], seq 2034756681, win 65535, options [mss 1460,sackOK,TS val 1910228668 ecr 0,nop,wscale 8], length 0
+12:24:39.411011 IP 10.42.0.1.53 > 10.42.0.112.34368: Flags [S.], seq 766181532, ack 2034756682, win 65160, options [mss 1460,sackOK,TS val 3420770002 ecr 1910228668,nop,wscale 10], length 0
+12:24:39.414847 IP 10.42.0.112.34354 > 10.42.0.1.53: Flags [.], ack 1, win 256, options [nop,nop,TS val 1910228700 ecr 104009276], length 0
+12:24:39.415166 IP 10.42.0.112.34354 > 10.42.0.1.53: Flags [P.], seq 1:38, ack 1, win 256, options [nop,nop,TS val 1910228700 ecr 104009276], length 37 19894+ A? log.tailscale.com. (35)
+12:24:39.415254 IP 10.42.0.1.53 > 10.42.0.112.34354: Flags [.], ack 38, win 64, options [nop,nop,TS val 104009281 ecr 1910228700], length 0
+12:24:39.416159 IP 10.42.0.112.34368 > 10.42.0.1.53: Flags [.], ack 1, win 256, options [nop,nop,TS val 1910228700 ecr 3420770002], length 0
+12:24:39.416357 IP 10.42.0.112.34368 > 10.42.0.1.53: Flags [P.], seq 1:38, ack 1, win 256, options [nop,nop,TS val 1910228701 ecr 3420770002], length 37 2012+ AAAA? log.tailscale.com. (35)
+12:24:39.416428 IP 10.42.0.1.53 > 10.42.0.112.34368: Flags [.], ack 38, win 64, options [nop,nop,TS val 3420770007 ecr 1910228701], length 0
+12:24:39.418710 IP 10.42.0.1.53 > 10.42.0.112.34354: Flags [P.], seq 1:38, ack 38, win 64, options [nop,nop,TS val 104009284 ecr 1910228700], length 37 19894 Refused* 0/0/0 (35)
+12:24:39.419540 IP 10.42.0.1.53 > 10.42.0.112.34368: Flags [P.], seq 1:38, ack 38, win 64, options [nop,nop,TS val 3420770010 ecr 1910228701], length 37 2012 Refused* 0/0/0 (35)
+12:24:39.451641 IP 10.42.0.112.34354 > 10.42.0.1.53: Flags [.], ack 38, win 256, options [nop,nop,TS val 1910228737 ecr 104009284], length 0
+12:24:39.451927 IP 10.42.0.112.34368 > 10.42.0.1.53: Flags [.], ack 38, win 256, options [nop,nop,TS val 1910228737 ecr 3420770010], length 0
+12:24:39.453394 IP 10.42.0.112.34368 > 10.42.0.1.53: Flags [F.], seq 38, ack 38, win 256, options [nop,nop,TS val 1910228738 ecr 3420770010], length 0
+12:24:39.453649 IP 10.42.0.1.53 > 10.42.0.112.34368: Flags [F.], seq 38, ack 39, win 64, options [nop,nop,TS val 3420770044 ecr 1910228738], length 0
+12:24:39.453686 IP 10.42.0.112.34354 > 10.42.0.1.53: Flags [F.], seq 38, ack 38, win 256, options [nop,nop,TS val 1910228739 ecr 104009284], length 0
+12:24:39.453862 IP 10.42.0.1.53 > 10.42.0.112.34354: Flags [F.], seq 38, ack 39, win 64, options [nop,nop,TS val 104009319 ecr 1910228739], length 0
+12:24:39.454801 IP 10.42.0.112.34368 > 10.42.0.1.53: Flags [.], ack 39, win 256, options [nop,nop,TS val 1910228740 ecr 3420770044], length 0
+12:24:39.456345 IP 10.42.0.112.34354 > 10.42.0.1.53: Flags [.], ack 39, win 256, options [nop,nop,TS val 1910228741 ecr 104009319], length 0
+12:24:39.476008 IP 10.42.0.112.37290 > 10.42.0.1.53: 7382+ AAAA? log.tailscale.com. (35)
+12:24:39.478342 IP 10.42.0.112.48874 > 10.42.0.1.53: 5307+ A? log.tailscale.com. (35)
+12:24:41.478366 IP 10.42.0.112.34372 > 10.42.0.1.53: Flags [S], seq 2006623703, win 65535, options [mss 1460,sackOK,TS val 1910230763 ecr 0,nop,wscale 8], length 0
+12:24:41.478555 IP 10.42.0.1.53 > 10.42.0.112.34372: Flags [S.], seq 3912413132, ack 2006623704, win 65160, options [mss 1460,sackOK,TS val 3513027133 ecr 1910230763,nop,wscale 10], length 0
+12:24:41.480080 IP 10.42.0.112.34372 > 10.42.0.1.53: Flags [.], ack 1, win 256, options [nop,nop,TS val 1910230765 ecr 3513027133], length 0
+12:24:41.480282 IP 10.42.0.112.34376 > 10.42.0.1.53: Flags [S], seq 1981935913, win 65535, options [mss 1460,sackOK,TS val 1910230765 ecr 0,nop,wscale 8], length 0
+12:24:41.480421 IP 10.42.0.1.53 > 10.42.0.112.34376: Flags [S.], seq 2980085449, ack 1981935914, win 65160, options [mss 1460,sackOK,TS val 1381476796 ecr 1910230765,nop,wscale 10], length 0
+12:24:41.480786 IP 10.42.0.112.34372 > 10.42.0.1.53: Flags [P.], seq 1:38, ack 1, win 256, options [nop,nop,TS val 1910230765 ecr 3513027133], length 37 7382+ AAAA? log.tailscale.com. (35)
+12:24:41.480870 IP 10.42.0.1.53 > 10.42.0.112.34372: Flags [.], ack 38, win 64, options [nop,nop,TS val 3513027135 ecr 1910230765], length 0
+12:24:41.481602 IP 10.42.0.112.34376 > 10.42.0.1.53: Flags [.], ack 1, win 256, options [nop,nop,TS val 1910230767 ecr 1381476796], length 0
+12:24:41.482009 IP 10.42.0.112.34376 > 10.42.0.1.53: Flags [P.], seq 1:38, ack 1, win 256, options [nop,nop,TS val 1910230767 ecr 1381476796], length 37 5307+ A? log.tailscale.com. (35)
+12:24:41.482086 IP 10.42.0.1.53 > 10.42.0.112.34376: Flags [.], ack 38, win 64, options [nop,nop,TS val 1381476798 ecr 1910230767], length 0
+12:24:41.484324 IP 10.42.0.1.53 > 10.42.0.112.34372: Flags [P.], seq 1:38, ack 38, win 64, options [nop,nop,TS val 3513027139 ecr 1910230765], length 37 7382 Refused* 0/0/0 (35)
+12:24:41.485140 IP 10.42.0.112.34372 > 10.42.0.1.53: Flags [.], ack 38, win 256, options [nop,nop,TS val 1910230770 ecr 3513027139], length 0
+12:24:41.485186 IP 10.42.0.1.53 > 10.42.0.112.34376: Flags [P.], seq 1:38, ack 38, win 64, options [nop,nop,TS val 1381476801 ecr 1910230767], length 37 5307 Refused* 0/0/0 (35)
+12:24:41.486048 IP 10.42.0.112.34376 > 10.42.0.1.53: Flags [.], ack 38, win 256, options [nop,nop,TS val 1910230771 ecr 1381476801], length 0
+12:24:41.486151 IP 10.42.0.112.34372 > 10.42.0.1.53: Flags [F.], seq 38, ack 38, win 256, options [nop,nop,TS val 1910230771 ecr 3513027139], length 0
+12:24:41.486289 IP 10.42.0.1.53 > 10.42.0.112.34372: Flags [F.], seq 38, ack 39, win 64, options [nop,nop,TS val 3513027141 ecr 1910230771], length 0
+12:24:41.487041 IP 10.42.0.112.34376 > 10.42.0.1.53: Flags [F.], seq 38, ack 38, win 256, options [nop,nop,TS val 1910230772 ecr 1381476801], length 0
+12:24:41.487159 IP 10.42.0.1.53 > 10.42.0.112.34376: Flags [F.], seq 38, ack 39, win 64, options [nop,nop,TS val 1381476803 ecr 1910230772], length 0
+12:24:41.487722 IP 10.42.0.112.34372 > 10.42.0.1.53: Flags [.], ack 39, win 256, options [nop,nop,TS val 1910230773 ecr 3513027141], length 0
+12:24:41.491368 IP 10.42.0.112.34376 > 10.42.0.1.53: Flags [.], ack 39, win 256, options [nop,nop,TS val 1910230773 ecr 1381476803], length 0
+12:24:41.491487 IP 10.42.0.112.60144 > 10.42.0.1.53: 7382+ AAAA? log.tailscale.com. (35)
+12:24:41.491607 IP 10.42.0.112.57457 > 10.42.0.1.53: 5307+ A? log.tailscale.com. (35)
+12:24:45.980514 IP 10.42.0.112.34388 > 10.42.0.1.53: Flags [S], seq 1428704492, win 65535, options [mss 1460,sackOK,TS val 1910232776 ecr 0,nop,wscale 8], length 0
+12:24:45.980638 IP 10.42.0.1.53 > 10.42.0.112.34388: Flags [S.], seq 916507115, ack 1428704493, win 65160, options [mss 1460,sackOK,TS val 2575294569 ecr 1910232776,nop,wscale 10], length 0
+12:24:45.980706 IP 10.42.0.112.34396 > 10.42.0.1.53: Flags [S], seq 486537417, win 65535, options [mss 1460,sackOK,TS val 1910232778 ecr 0,nop,wscale 8], length 0
+12:24:45.980800 IP 10.42.0.1.53 > 10.42.0.112.34396: Flags [S.], seq 2051311796, ack 486537418, win 65160, options [mss 1460,sackOK,TS val 449746587 ecr 1910232778,nop,wscale 10], length 0
+12:24:45.980952 IP 10.42.0.112.34396 > 10.42.0.1.53: Flags [S], seq 486537417, win 65535, options [mss 1460,sackOK,TS val 1910233781 ecr 0,nop,wscale 8], length 0
+12:24:45.981012 IP 10.42.0.1.53 > 10.42.0.112.34396: Flags [S.], seq 2051311796, ack 486537418, win 65160, options [mss 1460,sackOK,TS val 449746588 ecr 1910232778,nop,wscale 10], length 0
+12:24:45.981054 IP 10.42.0.112.34388 > 10.42.0.1.53: Flags [S], seq 1428704492, win 65535, options [mss 1460,sackOK,TS val 1910233781 ecr 0,nop,wscale 8], length 0
+12:24:45.981099 IP 10.42.0.1.53 > 10.42.0.112.34388: Flags [S.], seq 916507115, ack 1428704493, win 65160, options [mss 1460,sackOK,TS val 2575294570 ecr 1910232776,nop,wscale 10], length 0
+12:24:45.981124 IP 10.42.0.112.58535 > 10.42.0.1.53: 65321+ AAAA? controlplane.tailscale.com. (44)
+12:24:45.981217 IP 10.42.0.112.35362 > 10.42.0.1.53: 7267+ A? controlplane.tailscale.com. (44)
+12:24:45.981261 IP 10.42.0.112.54312 > 10.42.0.1.53: 31057+ A? a1-us.iotbing.com. (35)
+12:24:45.983519 IP 10.42.0.112.34388 > 10.42.0.1.53: Flags [.], ack 1, win 256, options [nop,nop,TS val 1910235267 ecr 2575294569], length 0
+12:24:45.983601 IP 10.42.0.112.34388 > 10.42.0.1.53: Flags [P.], seq 1:38, ack 1, win 256, options [nop,nop,TS val 1910235267 ecr 2575294569], length 37 5307+ A? log.tailscale.com. (35)
+12:24:45.983642 IP 10.42.0.1.53 > 10.42.0.112.34388: Flags [.], ack 38, win 64, options [nop,nop,TS val 2575294572 ecr 1910235267], length 0
+12:24:45.983665 IP 10.42.0.112.34396 > 10.42.0.1.53: Flags [.], ack 1, win 256, options [nop,nop,TS val 1910235267 ecr 449746587], length 0
+12:24:45.983720 IP 10.42.0.112.34396 > 10.42.0.1.53: Flags [P.], seq 1:38, ack 1, win 256, options [nop,nop,TS val 1910235267 ecr 449746587], length 37 7382+ AAAA? log.tailscale.com. (35)
+12:24:45.983747 IP 10.42.0.1.53 > 10.42.0.112.34396: Flags [.], ack 38, win 64, options [nop,nop,TS val 449746590 ecr 1910235267], length 0
+12:24:45.984729 IP 10.42.0.112.34396 > 10.42.0.1.53: Flags [.], ack 1, win 256, options [nop,nop,TS val 1910235270 ecr 449746587], length 0
+12:24:45.984994 IP 10.42.0.112.34388 > 10.42.0.1.53: Flags [.], ack 1, win 256, options [nop,nop,TS val 1910235270 ecr 2575294569], length 0
+12:24:45.987293 IP 10.42.0.1.53 > 10.42.0.112.34388: Flags [P.], seq 1:38, ack 38, win 64, options [nop,nop,TS val 2575294576 ecr 1910235270], length 37 5307 Refused* 0/0/0 (35)
+12:24:45.987836 IP 10.42.0.112.34388 > 10.42.0.1.53: Flags [.], ack 38, win 256, options [nop,nop,TS val 1910235273 ecr 2575294576], length 0
+12:24:45.988202 IP 10.42.0.1.53 > 10.42.0.112.34396: Flags [P.], seq 1:38, ack 38, win 64, options [nop,nop,TS val 449746595 ecr 1910235270], length 37 7382 Refused* 0/0/0 (35)
+12:24:45.988767 IP 10.42.0.112.34388 > 10.42.0.1.53: Flags [F.], seq 38, ack 38, win 256, options [nop,nop,TS val 1910235274 ecr 2575294576], length 0
+12:24:45.988939 IP 10.42.0.1.53 > 10.42.0.112.34388: Flags [F.], seq 38, ack 39, win 64, options [nop,nop,TS val 2575294578 ecr 1910235274], length 0
+12:24:45.988982 IP 10.42.0.112.34396 > 10.42.0.1.53: Flags [.], ack 38, win 256, options [nop,nop,TS val 1910235274 ecr 449746595], length 0
+12:24:45.989497 IP 10.42.0.112.34396 > 10.42.0.1.53: Flags [F.], seq 38, ack 38, win 256, options [nop,nop,TS val 1910235275 ecr 449746595], length 0
+12:24:45.989608 IP 10.42.0.1.53 > 10.42.0.112.34396: Flags [F.], seq 38, ack 39, win 64, options [nop,nop,TS val 449746596 ecr 1910235275], length 0
+12:24:45.990959 IP 10.42.0.112.34388 > 10.42.0.1.53: Flags [.], ack 39, win 256, options [nop,nop,TS val 1910235276 ecr 2575294578], length 0
+12:24:45.991106 IP 10.42.0.112.34396 > 10.42.0.1.53: Flags [.], ack 39, win 256, options [nop,nop,TS val 1910235276 ecr 449746596], length 0
+12:24:47.081102 IP 10.42.0.112.40444 > 10.42.0.1.53: Flags [S], seq 1857041771, win 65535, options [mss 1460,sackOK,TS val 1910235926 ecr 0,nop,wscale 8], length 0
+12:24:47.081293 IP 10.42.0.1.53 > 10.42.0.112.40444: Flags [S.], seq 10464872, ack 1857041772, win 65160, options [mss 1460,sackOK,TS val 1591687723 ecr 1910235926,nop,wscale 10], length 0
+12:24:47.081370 IP 10.42.0.112.40460 > 10.42.0.1.53: Flags [S], seq 68712352, win 65535, options [mss 1460,sackOK,TS val 1910235928 ecr 0,nop,wscale 8], length 0
+12:24:47.081472 IP 10.42.0.1.53 > 10.42.0.112.40460: Flags [S.], seq 2730694398, ack 68712353, win 65160, options [mss 1460,sackOK,TS val 2989737338 ecr 1910235928,nop,wscale 10], length 0
+12:24:47.081774 IP 10.42.0.112.40462 > 10.42.0.1.53: Flags [S], seq 2710043927, win 65535, options [mss 1460,sackOK,TS val 1910236342 ecr 0,nop,wscale 8], length 0
+12:24:47.081922 IP 10.42.0.1.53 > 10.42.0.112.40462: Flags [S.], seq 1088690601, ack 2710043928, win 65160, options [mss 1460,sackOK,TS val 1685708121 ecr 1910236342,nop,wscale 10], length 0
+12:24:47.082428 IP 10.42.0.112.40444 > 10.42.0.1.53: Flags [.], ack 1, win 256, options [nop,nop,TS val 1910236367 ecr 1591687723], length 0
+12:24:47.082800 IP 10.42.0.112.40460 > 10.42.0.1.53: Flags [.], ack 1, win 256, options [nop,nop,TS val 1910236368 ecr 2989737338], length 0
+12:24:47.083049 IP 10.42.0.112.40444 > 10.42.0.1.53: Flags [P.], seq 1:47, ack 1, win 256, options [nop,nop,TS val 1910236368 ecr 1591687723], length 46 65321+ AAAA? controlplane.tailscale.com. (44)
+12:24:47.083179 IP 10.42.0.1.53 > 10.42.0.112.40444: Flags [.], ack 47, win 64, options [nop,nop,TS val 1591687725 ecr 1910236368], length 0
+12:24:47.083291 IP 10.42.0.112.40460 > 10.42.0.1.53: Flags [P.], seq 1:47, ack 1, win 256, options [nop,nop,TS val 1910236368 ecr 2989737338], length 46 7267+ A? controlplane.tailscale.com. (44)
+12:24:47.083384 IP 10.42.0.1.53 > 10.42.0.112.40460: Flags [.], ack 47, win 64, options [nop,nop,TS val 2989737340 ecr 1910236368], length 0
+12:24:47.083475 IP 10.42.0.112.40462 > 10.42.0.1.53: Flags [.], ack 1, win 256, options [nop,nop,TS val 1910236368 ecr 1685708121], length 0
+12:24:47.083638 IP 10.42.0.112.40462 > 10.42.0.1.53: Flags [P.], seq 1:38, ack 1, win 256, options [nop,nop,TS val 1910236368 ecr 1685708121], length 37 31057+ A? a1-us.iotbing.com. (35)
+12:24:47.083704 IP 10.42.0.1.53 > 10.42.0.112.40462: Flags [.], ack 38, win 64, options [nop,nop,TS val 1685708123 ecr 1910236368], length 0
+12:24:47.085773 IP 10.42.0.1.53 > 10.42.0.112.40444: Flags [P.], seq 1:47, ack 47, win 64, options [nop,nop,TS val 1591687727 ecr 1910236368], length 46 65321 Refused* 0/0/0 (44)
+12:24:47.086628 IP 10.42.0.1.53 > 10.42.0.112.40460: Flags [P.], seq 1:47, ack 47, win 64, options [nop,nop,TS val 2989737343 ecr 1910236368], length 46 7267 Refused* 0/0/0 (44)
+12:24:47.087497 IP 10.42.0.1.53 > 10.42.0.112.40462: Flags [P.], seq 1:38, ack 38, win 64, options [nop,nop,TS val 1685708127 ecr 1910236368], length 37 31057 Refused* 0/0/0 (35)
+12:24:47.088227 IP 10.42.0.112.40444 > 10.42.0.1.53: Flags [.], ack 47, win 256, options [nop,nop,TS val 1910236372 ecr 1591687727], length 0
+12:24:47.088265 IP 10.42.0.112.40444 > 10.42.0.1.53: Flags [F.], seq 47, ack 47, win 256, options [nop,nop,TS val 1910236372 ecr 1591687727], length 0
+12:24:47.088353 IP 10.42.0.1.53 > 10.42.0.112.40444: Flags [F.], seq 47, ack 48, win 64, options [nop,nop,TS val 1591687730 ecr 1910236372], length 0
+12:24:47.088409 IP 10.42.0.112.40460 > 10.42.0.1.53: Flags [.], ack 47, win 256, options [nop,nop,TS val 1910236373 ecr 2989737343], length 0
+12:24:47.090926 IP 10.42.0.112.40460 > 10.42.0.1.53: Flags [F.], seq 47, ack 47, win 256, options [nop,nop,TS val 1910236374 ecr 2989737343], length 0
+12:24:47.091110 IP 10.42.0.1.53 > 10.42.0.112.40460: Flags [F.], seq 47, ack 48, win 64, options [nop,nop,TS val 2989737348 ecr 1910236374], length 0
+12:24:47.091201 IP 10.42.0.112.54002 > 10.42.0.1.53: 7267+ A? controlplane.tailscale.com. (44)
+12:24:47.091775 IP 10.42.0.112.56975 > 10.42.0.1.53: 65321+ AAAA? controlplane.tailscale.com. (44)
+12:24:47.092185 IP 10.42.0.112.40462 > 10.42.0.1.53: Flags [.], ack 38, win 256, options [nop,nop,TS val 1910236377 ecr 1685708127], length 0
+12:24:47.092574 IP 10.42.0.112.40444 > 10.42.0.1.53: Flags [.], ack 48, win 256, options [nop,nop,TS val 1910236378 ecr 1591687730], length 0
+12:24:47.092852 IP 10.42.0.112.40460 > 10.42.0.1.53: Flags [.], ack 48, win 256, options [nop,nop,TS val 1910236378 ecr 2989737348], length 0
+12:24:47.093252 IP 10.42.0.112.40462 > 10.42.0.1.53: Flags [F.], seq 38, ack 38, win 256, options [nop,nop,TS val 1910236378 ecr 1685708127], length 0
+12:24:47.093384 IP 10.42.0.1.53 > 10.42.0.112.40462: Flags [F.], seq 38, ack 39, win 64, options [nop,nop,TS val 1685708133 ecr 1910236378], length 0
+12:24:47.094340 IP 10.42.0.112.40462 > 10.42.0.1.53: Flags [.], ack 39, win 256, options [nop,nop,TS val 1910236379 ecr 1685708133], length 0
+12:24:47.096764 IP 10.42.0.112.46349 > 10.42.0.1.53: 31057+ A? a1-us.iotbing.com. (35)
+12:24:49.094293 IP 10.42.0.112.40472 > 10.42.0.1.53: Flags [S], seq 1661805152, win 65535, options [mss 1460,sackOK,TS val 1910238379 ecr 0,nop,wscale 8], length 0
+12:24:49.094384 IP 10.42.0.1.53 > 10.42.0.112.40472: Flags [S.], seq 2686259749, ack 1661805153, win 65160, options [mss 1460,sackOK,TS val 347631598 ecr 1910238379,nop,wscale 10], length 0
+12:24:49.095572 IP 10.42.0.112.40480 > 10.42.0.1.53: Flags [S], seq 2707281612, win 65535, options [mss 1460,sackOK,TS val 1910238380 ecr 0,nop,wscale 8], length 0
+12:24:49.095630 IP 10.42.0.1.53 > 10.42.0.112.40480: Flags [S.], seq 2227667180, ack 2707281613, win 65160, options [mss 1460,sackOK,TS val 1224072020 ecr 1910238380,nop,wscale 10], length 0
+12:24:49.099805 IP 10.42.0.112.40472 > 10.42.0.1.53: Flags [.], ack 1, win 256, options [nop,nop,TS val 1910238381 ecr 347631598], length 0
+12:24:49.099869 IP 10.42.0.112.40472 > 10.42.0.1.53: Flags [P.], seq 1:47, ack 1, win 256, options [nop,nop,TS val 1910238381 ecr 347631598], length 46 65321+ AAAA? controlplane.tailscale.com. (44)
+12:24:49.099895 IP 10.42.0.1.53 > 10.42.0.112.40472: Flags [.], ack 47, win 64, options [nop,nop,TS val 347631603 ecr 1910238381], length 0
+12:24:49.099961 IP 10.42.0.112.40490 > 10.42.0.1.53: Flags [S], seq 1680846498, win 65535, options [mss 1460,sackOK,TS val 1910238384 ecr 0,nop,wscale 8], length 0
+12:24:49.100002 IP 10.42.0.1.53 > 10.42.0.112.40490: Flags [S.], seq 3004500631, ack 1680846499, win 65160, options [mss 1460,sackOK,TS val 2026148493 ecr 1910238384,nop,wscale 10], length 0
+12:24:49.100155 IP 10.42.0.112.40480 > 10.42.0.1.53: Flags [.], ack 1, win 256, options [nop,nop,TS val 1910238385 ecr 1224072020], length 0
+12:24:49.100899 IP 10.42.0.112.40480 > 10.42.0.1.53: Flags [P.], seq 1:47, ack 1, win 256, options [nop,nop,TS val 1910238385 ecr 1224072020], length 46 7267+ A? controlplane.tailscale.com. (44)
+12:24:49.100934 IP 10.42.0.1.53 > 10.42.0.112.40480: Flags [.], ack 47, win 64, options [nop,nop,TS val 1224072026 ecr 1910238385], length 0
+12:24:49.101951 IP 10.42.0.112.40490 > 10.42.0.1.53: Flags [.], ack 1, win 256, options [nop,nop,TS val 1910238387 ecr 2026148493], length 0
+12:24:49.101961 IP 10.42.0.1.53 > 10.42.0.112.40472: Flags [P.], seq 1:47, ack 47, win 64, options [nop,nop,TS val 347631606 ecr 1910238381], length 46 65321 Refused* 0/0/0 (44)
+12:24:49.102426 IP 10.42.0.1.53 > 10.42.0.112.40480: Flags [P.], seq 1:47, ack 47, win 64, options [nop,nop,TS val 1224072027 ecr 1910238385], length 46 7267 Refused* 0/0/0 (44)
+12:24:49.102473 IP 10.42.0.112.40490 > 10.42.0.1.53: Flags [P.], seq 1:38, ack 1, win 256, options [nop,nop,TS val 1910238388 ecr 2026148493], length 37 31057+ A? a1-us.iotbing.com. (35)
+12:24:49.102496 IP 10.42.0.1.53 > 10.42.0.112.40490: Flags [.], ack 38, win 64, options [nop,nop,TS val 2026148495 ecr 1910238388], length 0
+12:24:49.103016 IP 10.42.0.112.40472 > 10.42.0.1.53: Flags [.], ack 47, win 256, options [nop,nop,TS val 1910238388 ecr 347631606], length 0
+12:24:49.103474 IP 10.42.0.112.40480 > 10.42.0.1.53: Flags [.], ack 47, win 256, options [nop,nop,TS val 1910238389 ecr 1224072027], length 0
+12:24:49.104456 IP 10.42.0.1.53 > 10.42.0.112.40490: Flags [P.], seq 1:38, ack 38, win 64, options [nop,nop,TS val 2026148497 ecr 1910238388], length 37 31057 Refused* 0/0/0 (35)
+12:24:49.106583 IP 10.42.0.112.40480 > 10.42.0.1.53: Flags [F.], seq 47, ack 47, win 256, options [nop,nop,TS val 1910238390 ecr 1224072027], length 0
+12:24:49.106584 IP 10.42.0.112.40472 > 10.42.0.1.53: Flags [F.], seq 47, ack 47, win 256, options [nop,nop,TS val 1910238390 ecr 347631606], length 0
+12:24:49.106630 IP 10.42.0.112.40490 > 10.42.0.1.53: Flags [.], ack 38, win 256, options [nop,nop,TS val 1910238391 ecr 2026148497], length 0
+12:24:49.106668 IP 10.42.0.1.53 > 10.42.0.112.40480: Flags [F.], seq 47, ack 48, win 64, options [nop,nop,TS val 1224072031 ecr 1910238390], length 0
+12:24:49.106688 IP 10.42.0.1.53 > 10.42.0.112.40472: Flags [F.], seq 47, ack 48, win 64, options [nop,nop,TS val 347631610 ecr 1910238390], length 0
+12:24:49.107594 IP 10.42.0.112.40490 > 10.42.0.1.53: Flags [F.], seq 38, ack 38, win 256, options [nop,nop,TS val 1910238392 ecr 2026148497], length 0
+12:24:49.107640 IP 10.42.0.1.53 > 10.42.0.112.40490: Flags [F.], seq 38, ack 39, win 64, options [nop,nop,TS val 2026148500 ecr 1910238392], length 0
+12:24:49.110426 IP 10.42.0.112.40480 > 10.42.0.1.53: Flags [.], ack 48, win 256, options [nop,nop,TS val 1910238395 ecr 1224072031], length 0
+12:24:49.111673 IP 10.42.0.112.40472 > 10.42.0.1.53: Flags [.], ack 48, win 256, options [nop,nop,TS val 1910238397 ecr 347631610], length 0
+12:24:49.112683 IP 10.42.0.112.40490 > 10.42.0.1.53: Flags [.], ack 39, win 256, options [nop,nop,TS val 1910238398 ecr 2026148500], length 0
+12:24:49.118256 IP 10.42.0.112.51857 > 10.42.0.1.53: 56259+ A? a1-us.iotbing.com. (35)
+12:24:51.120945 IP 10.42.0.112.40506 > 10.42.0.1.53: Flags [S], seq 310289449, win 65535, options [mss 1460,sackOK,TS val 1910240405 ecr 0,nop,wscale 8], length 0
+12:24:51.121112 IP 10.42.0.1.53 > 10.42.0.112.40506: Flags [S.], seq 3032629314, ack 310289450, win 65160, options [mss 1460,sackOK,TS val 168646539 ecr 1910240405,nop,wscale 10], length 0
+12:24:51.122578 IP 10.42.0.112.40506 > 10.42.0.1.53: Flags [.], ack 1, win 256, options [nop,nop,TS val 1910240407 ecr 168646539], length 0
+12:24:51.123006 IP 10.42.0.112.40506 > 10.42.0.1.53: Flags [P.], seq 1:38, ack 1, win 256, options [nop,nop,TS val 1910240408 ecr 168646539], length 37 56259+ A? a1-us.iotbing.com. (35)
+12:24:51.123069 IP 10.42.0.1.53 > 10.42.0.112.40506: Flags [.], ack 38, win 64, options [nop,nop,TS val 168646541 ecr 1910240408], length 0
+12:24:51.125852 IP 10.42.0.1.53 > 10.42.0.112.40506: Flags [P.], seq 1:38, ack 38, win 64, options [nop,nop,TS val 168646543 ecr 1910240408], length 37 56259 Refused* 0/0/0 (35)
+12:24:51.132859 IP 10.42.0.112.40506 > 10.42.0.1.53: Flags [.], ack 38, win 256, options [nop,nop,TS val 1910240418 ecr 168646543], length 0
+12:24:51.133483 IP 10.42.0.112.40506 > 10.42.0.1.53: Flags [F.], seq 38, ack 38, win 256, options [nop,nop,TS val 1910240418 ecr 168646543], length 0
+12:24:51.133715 IP 10.42.0.1.53 > 10.42.0.112.40506: Flags [F.], seq 38, ack 39, win 64, options [nop,nop,TS val 168646551 ecr 1910240418], length 0
+12:24:51.134629 IP 10.42.0.112.40506 > 10.42.0.1.53: Flags [.], ack 39, win 256, options [nop,nop,TS val 1910240420 ecr 168646551], length 0
+12:24:51.137130 IP 10.42.0.112.34486 > 10.42.0.1.53: 56259+ A? a1-us.iotbing.com. (35)
+12:24:53.138779 IP 10.42.0.112.40518 > 10.42.0.1.53: Flags [S], seq 547563984, win 65535, options [mss 1460,sackOK,TS val 1910242423 ecr 0,nop,wscale 8], length 0
+12:24:53.139003 IP 10.42.0.1.53 > 10.42.0.112.40518: Flags [S.], seq 827437588, ack 547563985, win 65160, options [mss 1460,sackOK,TS val 3524034549 ecr 1910242423,nop,wscale 10], length 0
+12:24:53.140411 IP 10.42.0.112.40518 > 10.42.0.1.53: Flags [.], ack 1, win 256, options [nop,nop,TS val 1910242425 ecr 3524034549], length 0
+12:24:53.140791 IP 10.42.0.112.40518 > 10.42.0.1.53: Flags [P.], seq 1:38, ack 1, win 256, options [nop,nop,TS val 1910242426 ecr 3524034549], length 37 56259+ A? a1-us.iotbing.com. (35)
+12:24:53.140895 IP 10.42.0.1.53 > 10.42.0.112.40518: Flags [.], ack 38, win 64, options [nop,nop,TS val 3524034550 ecr 1910242426], length 0
+12:24:53.144146 IP 10.42.0.1.53 > 10.42.0.112.40518: Flags [P.], seq 1:38, ack 38, win 64, options [nop,nop,TS val 3524034554 ecr 1910242426], length 37 56259 Refused* 0/0/0 (35)
+12:24:53.145025 IP 10.42.0.112.40518 > 10.42.0.1.53: Flags [.], ack 38, win 256, options [nop,nop,TS val 1910242430 ecr 3524034554], length 0
+12:24:53.145768 IP 10.42.0.112.40518 > 10.42.0.1.53: Flags [F.], seq 38, ack 38, win 256, options [nop,nop,TS val 1910242431 ecr 3524034554], length 0
+12:24:53.145880 IP 10.42.0.1.53 > 10.42.0.112.40518: Flags [F.], seq 38, ack 39, win 64, options [nop,nop,TS val 3524034555 ecr 1910242431], length 0
+12:24:53.147427 IP 10.42.0.112.40518 > 10.42.0.1.53: Flags [.], ack 39, win 256, options [nop,nop,TS val 1910242432 ecr 3524034555], length 0
+^C
+1033 packets captured
+1033 packets received by filter
+0 packets dropped by kernel
+bash-5.3$

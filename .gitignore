@@ -1,0 +1,12 @@
+# vídeos grandes
+*.mkv
+*.mp4
+
+# APKs e dumps
+*.apk
+*.tar
+*.zip
+
+# diretórios pesados
+smartplug/decomp/
+1. Presentations/

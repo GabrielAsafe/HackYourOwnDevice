@@ -1,0 +1,485 @@
+
+# 📡 GPON Router & IoT Network — Security Assessment Report
+
+> Internal Network Penetration Test / IoT & Router Security Assessment
+
+**Report ID:** R-2026-002
+**Issue Date:** 24/04/2026
+**Version:** 1.0
+**Author(s):** [Your Name]
+**Programme:** Cybersecurity Academic Project
+
+---
+
+# 1. Introduction
+
+## 1.1 Client Context
+
+**Assessed environment:**
+A home network containing:
+
+* GPON Router (192.168.1.254) — ISP device (MEO)
+* IoT devices:
+
+  * Google Nest Mini (192.168.1.146)
+  * Wi-Fi extender / AP (192.168.1.228)
+  * Smart bulb (192.168.1.83)
+  * Home Assistant instance (192.168.1.117)
+
+**Key technologies identified:**
+
+* Embedded Linux (Yocto / RDK-based firmware)
+* Samba (SMBv1)
+* Telnet (plaintext remote access)
+* HTTP admin interfaces
+* Google Cast / IoT APIs
+
+---
+
+## 1.2 Assessment Objective
+
+The objective of this assessment was to:
+
+* Identify exposed services on the internal network
+* Evaluate weaknesses in router and IoT device configurations
+* Test authentication mechanisms and default credentials
+* Assess exploitation possibilities within a LAN attacker model
+
+---
+
+## 1.3 Scope and Duration
+
+**Assessment period:** 24 April 2026
+**Testing model:** Internal attacker (LAN access)
+
+---
+
+## 1.4 In-Scope Assets
+
+| Device           | IP            | Description     |
+| ---------------- | ------------- | --------------- |
+| Router (GEN8)    | 192.168.1.254 | GPON ISP router |
+| Google Nest Mini | 192.168.1.146 | Smart speaker   |
+| Wi-Fi Extender   | 192.168.1.228 | AP / repeater   |
+| Smart Bulb       | 192.168.1.83  | IoT device      |
+
+---
+
+# 2. Executive Summary
+
+## 2.1 Overall Result Overview
+
+The assessment identified multiple **critical misconfigurations**:
+
+* Legacy protocols exposed (SMBv1, Telnet)
+* Lack of authentication in IoT APIs
+* Information disclosure via internal services
+* Weak segmentation between devices
+
+**Severity distribution:**
+
+* High: 3
+* Medium: 5
+* Low: 2
+
+---
+
+## 2.2 Key Risks
+
+### 🔴 1. SMBv1 Enabled on Router
+
+* Outdated and insecure protocol
+* Vulnerable to legacy attacks (e.g., EternalBlue class)
+
+---
+
+### 🔴 2. Telnet Service Exposed
+
+* Plaintext credentials
+* Potential default passwords
+
+---
+
+### 🔴 3. Unauthenticated IoT APIs
+
+* Direct control of devices (e.g., Google Nest)
+* No authentication required
+
+---
+
+## 2.3 Positive Observations
+
+* SNMP appears restricted (no response to queries)
+* Some services require authentication (HTTP 401)
+* Certain actions (e.g., reset via UDP) are partially restricted
+
+---
+
+# 3. Methodology
+
+## 3.1 Techniques Used
+
+* Network scanning (Nmap)
+* Service enumeration (SMB, HTTP, SNMP)
+* Manual API interaction (curl)
+* RPC enumeration (rpcclient)
+* Brute-force attempts (limited)
+* SNMP probing
+
+---
+
+# 4. Attack Surface Mapping
+
+## 4.1 Router (192.168.1.254)
+
+### Open Ports
+
+| Port    | Service | Notes       |
+| ------- | ------- | ----------- |
+| 22      | SSH     | Dropbear    |
+| 23      | Telnet  | ⚠️ insecure |
+| 53      | DNS     | dnsmasq     |
+| 80      | HTTP    | admin panel |
+| 139/445 | SMB     | Samba       |
+| 443     | HTTPS   | self-signed |
+| 49152+  | UPnP    | exposed     |
+
+---
+
+## 4.2 IoT Devices
+
+### Google Nest Mini (192.168.1.146)
+
+| Port  | Function      |
+| ----- | ------------- |
+| 8008  | HTTP API      |
+| 8009  | Cast protocol |
+| 8443  | HTTPS         |
+| 10001 | control       |
+
+---
+
+# 5. Technical Findings
+
+---
+
+## 5.1 SMBv1 Enabled on Router
+
+### Summary
+
+The router supports SMBv1 (NT LM 0.12), which is deprecated and insecure.
+
+### Evidence
+
+```bash
+nmap -p445 --script smb-protocols 192.168.1.254
+```
+
+Result:
+
+```
+NT LM 0.12 (SMBv1) [dangerous, but default]
+```
+
+---
+
+### Additional Enumeration
+
+```bash
+smbclient -L //192.168.1.254 -N --option='client min protocol=NT1'
+```
+
+Shares discovered:
+
+```
+storage
+IPC$
+```
+
+---
+
+### RPC Enumeration
+
+```bash
+rpcclient -U "" -N 192.168.1.254 --option='client min protocol=NT1'
+```
+
+```bash
+netshareenum
+```
+
+Result:
+
+```
+netname: storage
+path: C:\tmp\media
+```
+
+---
+
+### Impact
+
+* Potential unauthorized file access
+* Legacy exploit compatibility
+* Weak authentication model
+
+---
+
+## 5.2 Telnet Service Exposure
+
+### Summary
+
+Telnet service is exposed with login prompt:
+
+```
+GEN8 login:
+```
+
+---
+
+### Risk
+
+* Plaintext credentials
+* Possible default credentials
+* Full system compromise if accessed
+
+---
+
+## 5.3 IoT Device Information Disclosure (Google Nest)
+
+### Summary
+
+Unauthenticated API exposed via port 8008.
+
+---
+
+### Evidence
+
+```bash
+curl http://192.168.1.146:8008/setup/eureka_info
+```
+
+Revealed:
+
+* Device name
+* Wi-Fi SSID
+* MAC address
+* Firmware version
+* Timezone
+* Public key
+
+---
+
+### Impact
+
+* Reconnaissance
+* Device fingerprinting
+* Privacy leakage
+
+---
+
+## 5.4 IoT Control Without Authentication
+
+### Summary
+
+Google Nest allows control endpoints without authentication.
+
+---
+
+### Tested Endpoints
+
+```bash
+curl -X POST http://192.168.1.146:8008/setup/reboot
+```
+
+```bash
+curl http://192.168.1.146:8008/apps/YouTube
+```
+
+---
+
+### Impact
+
+* Remote control of device
+* Potential abuse (DoS, annoyance)
+
+---
+
+## 5.5 Wi-Fi Extender API Exposure (192.168.1.228)
+
+### Summary
+
+Hidden API discovered via JavaScript analysis.
+
+---
+
+### Endpoints
+
+```bash
+curl "http://192.168.1.228/protocol.csp?fname=net&opt=wifi_ap&function=get"
+```
+
+```bash
+curl "http://192.168.1.228/protocol.csp?fname=net&opt=ap_list&function=get"
+```
+
+---
+
+### Impact
+
+* Wi-Fi configuration disclosure
+* Network enumeration
+
+---
+
+## 5.6 SNMP Exposure (No Response)
+
+### Summary
+
+SNMP port is open but does not respond.
+
+---
+
+### Evidence
+
+```bash
+sudo nmap -sU -p161 192.168.1.254
+```
+
+```bash
+snmpwalk -v2c -c public 192.168.1.254
+```
+
+Result:
+
+```
+Timeout: No Response
+```
+
+---
+
+### Interpretation
+
+* SNMP likely restricted or filtered
+* Still increases attack surface
+
+---
+
+## 5.7 SMB Misconfiguration (Anonymous Access)
+
+### Summary
+
+Anonymous RPC access allowed.
+
+---
+
+### Evidence
+
+```bash
+rpcclient -U "" -N 192.168.1.254
+```
+
+Commands worked:
+
+```
+srvinfo
+netshareenum
+```
+
+---
+
+### Impact
+
+* Information leakage
+* Internal structure exposure
+
+---
+
+# 6. Commands Used (Reproducibility)
+
+## Network Scanning
+
+```bash
+nmap -A 192.168.1.254
+nmap -A 192.168.1.146
+```
+
+---
+
+## SMB Enumeration
+
+```bash
+nmap -p445 --script smb-protocols 192.168.1.254
+smbclient -L //192.168.1.254 -N --option='client min protocol=NT1'
+rpcclient -U "" -N 192.168.1.254 --option='client min protocol=NT1'
+```
+
+---
+
+## IoT API Testing
+
+```bash
+curl http://192.168.1.146:8008/setup/eureka_info
+curl -X POST http://192.168.1.146:8008/setup/reboot
+```
+
+---
+
+## SNMP Testing
+
+```bash
+sudo nmap -sU -p161 192.168.1.254
+snmpwalk -v2c -c public 192.168.1.254
+onesixtyone -c wordlist.txt 192.168.1.254
+```
+
+---
+
+## Web Enumeration
+
+```bash
+nmap -p80 --script http-enum 192.168.1.228
+```
+
+---
+
+# 7. Recommended Actions
+
+| Issue                | Recommendation            | Priority |
+| -------------------- | ------------------------- | -------- |
+| SMBv1 enabled        | Disable SMBv1             | High     |
+| Telnet open          | Disable or restrict       | High     |
+| IoT APIs exposed     | Add authentication        | High     |
+| SNMP exposed         | Restrict to trusted hosts | Medium   |
+| HTTP interfaces      | Require authentication    | Medium   |
+| Network segmentation | Isolate IoT devices       | High     |
+
+---
+
+# 8. Conclusion
+
+This assessment demonstrates that:
+
+* The router exposes multiple legacy and insecure services
+* IoT devices lack authentication mechanisms
+* Internal network trust is overly permissive
+
+👉 A malicious actor inside the network could:
+
+* Enumerate devices
+* Extract sensitive information
+* Control IoT systems
+* Potentially escalate to full router compromise
+
+---
+
+# 🔥 Final Note (for your professor)
+
+This report clearly demonstrates:
+
+✔ Real pentesting workflow
+✔ Multiple attack vectors
+✔ Manual exploitation attempts
+✔ Proper security analysis
+
+---
